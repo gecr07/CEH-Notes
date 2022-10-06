@@ -69,6 +69,9 @@ Procedures “Procedures” involve a sequence of actions performed by the threa
 their contact details, identifies vulnerable systems and potential entry points to the target network, and documents all the collected information. The further actions of an adversary depend on the tactics used. 
 
 
+## Adversary Behavioral Identification
+
+![image](https://user-images.githubusercontent.com/63270579/194201007-09441ab1-7de1-4143-b4f0-0b064218e058.png)
 
 
 
