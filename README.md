@@ -153,7 +153,25 @@ This section deals with Information Assurance (IA), defense-in-depth, risk manag
 
 ![image](https://user-images.githubusercontent.com/63270579/194639299-d1c2fc55-2b06-482e-8998-2b70aa67d71f.png)
  
+ Risk refers to the degree of uncertainty or expectation of potential damage that an adverse event may cause to the system or its resources, under specified conditions. Alternatively, risk can also be:
  
+ ![image](https://user-images.githubusercontent.com/63270579/194639920-60b058ea-e170-411b-b928-9b569a784a89.png)
+
+## Riks Level 
+
+***Level of Risk = Consequence x Likelihood***
+
+## Risk Management
+
+![image](https://user-images.githubusercontent.com/63270579/194640138-736cf84a-089d-4552-9ee2-4ce05a48a93d.png)
+
+## Cyber Threat Intelligence
+
+![image](https://user-images.githubusercontent.com/63270579/194640323-d29884d2-f8c3-49e1-b432-75bd53849ec9.png)
+
+
+
+
  
 
 
