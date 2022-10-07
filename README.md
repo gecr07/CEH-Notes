@@ -2,12 +2,10 @@
 
 # Modulo 1 Introduccion to Ethical Hacking 
 
+![image](https://user-images.githubusercontent.com/63270579/194622703-94d27cc1-2c97-4f41-9366-bbce24ce67d1.png)
 
-## What is TTPs, and IoCs
 
-Tactics, Techniques and Procedures (TTPs): an attacker's manifestation or modus operandi across technology, methodologies and operations. Discrete parts of an attacker's TTP can form specific Indicators of Compromise (IoCs) as if they were a fingerprint.
-
-# Elementos de la seguridad de la informacion 
+# 1 Elementos de la seguridad de la informacion Information overview
 
 Nota como aqui le agregan 2 mas.
 
@@ -34,7 +32,7 @@ Information warfare or InfoWar refers to the use of information and communicatio
 technologies (ICT).
 
 
-# Cyber Kill Chain Concepts
+# 2 Cyber Kill Chain Concepts
 
 
 ![image](https://user-images.githubusercontent.com/63270579/194167371-d96678e6-1a9f-40f1-803c-4b36e536e15d.png)
@@ -74,6 +72,29 @@ their contact details, identifies vulnerable systems and potential entry points 
 ![image](https://user-images.githubusercontent.com/63270579/194201007-09441ab1-7de1-4143-b4f0-0b064218e058.png)
 
 
+Adversary behavioral identification involves the identification of the common methods or techniques followed by an adversary to launch attacks to penetrate an organization’s network. It gives security professionals insight into upcoming threats and exploits. It helps them plan network security infrastructure and adapt a range of security procedures as prevention against various cyberattacks.
+
+## Indicators of Compromise (IoCs)
+
+![image](https://user-images.githubusercontent.com/63270579/194618197-ec727bb2-6df0-4910-ac3e-12600926ff36.png)
+
+
+## Categories of Indicators of Compromise
+
+![image](https://user-images.githubusercontent.com/63270579/194618769-11d76f52-1e45-41b7-a5c3-4c5f3bc1953c.png)
+
+## What is TTPs, and IoCs ( en resumen)
+
+Tactics, Techniques and Procedures (TTPs): an attacker's manifestation or modus operandi across technology, methodologies and operations. Discrete parts of an attacker's TTP can form specific Indicators of Compromise (IoCs) as if they were a fingerprint.
+
+
+# 3 Hacking Concepts 
+
+![image](https://user-images.githubusercontent.com/63270579/194623304-4c357071-d726-4d96-a073-bbcc01627137.png)
+
+## Hacker Classes
+
+![image](https://user-images.githubusercontent.com/63270579/194623503-a8e89972-1f6e-494d-b648-d40016942f74.png)
 
 
 
