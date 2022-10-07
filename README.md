@@ -96,6 +96,37 @@ Tactics, Techniques and Procedures (TTPs): an attacker's manifestation or modus 
 
 ![image](https://user-images.githubusercontent.com/63270579/194623503-a8e89972-1f6e-494d-b648-d40016942f74.png)
 
+## Hacking Phases
+
+In general, there are five phases of hacking:
+
+1. Reconnaissance 
+2. Scanning 
+3. Gaining Access 
+4. Maintaining Access
+5.  Clearing Tracks
+
+### Hacking Phase: Reconnaissance
+
+Reconnaissance refers to the preparatory phase in which an attacker gathers as much information as possible about the target prior to launching the attack. In this phase, the attacker draws on competitive intelligence to learn more about the target.
+
+***Reconnaissance techniques are broadly categorized into active and passive. ****
+
+### Hacking Phase: Scanning
+
+
+![image](https://user-images.githubusercontent.com/63270579/194625117-d090bed6-9094-4992-9817-5b31e7268fba.png)
+
+
+Scanning is the phase immediately preceding the attack. Here, the attacker uses the details gathered during reconnaissance to scan the network for specific information. 
+
+### Hacking Phase: Gaining Access
+
+![image](https://user-images.githubusercontent.com/63270579/194625602-57f6244d-b62d-42ee-b279-8b0f602063e8.png)
+
+### acking Phase: Maintaining Access
+
+![image](https://user-images.githubusercontent.com/63270579/194625728-fdc8d911-4c58-4eee-97d3-62b0fd165f91.png)
 
 
 
@@ -103,10 +134,11 @@ Tactics, Techniques and Procedures (TTPs): an attacker's manifestation or modus 
 
 
 
+# Glosario 
 
+## Dumpster diving
 
-
-
+In cybersecurity is the process of investigating an individual or organization's trash to retrieve information that could be used to compromise network resources or plan a cyberattack. A person going through your trash can gather enough data to create a complex profile and commit identity theft.
 
 
 
