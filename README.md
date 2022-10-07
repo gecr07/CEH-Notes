@@ -124,9 +124,73 @@ Scanning is the phase immediately preceding the attack. Here, the attacker uses 
 
 ![image](https://user-images.githubusercontent.com/63270579/194625602-57f6244d-b62d-42ee-b279-8b0f602063e8.png)
 
-### acking Phase: Maintaining Access
+### Hacking Phase: Maintaining Access
 
 ![image](https://user-images.githubusercontent.com/63270579/194625728-fdc8d911-4c58-4eee-97d3-62b0fd165f91.png)
+
+
+### Hacking Phase: Clearing Tracks
+
+![image](https://user-images.githubusercontent.com/63270579/194626665-ab951d20-f25d-4739-8c54-5d4cd80e0459.png)
+
+
+# Ethical Hacking Concepts
+
+![image](https://user-images.githubusercontent.com/63270579/194627533-34a8cdd3-7a3d-47d6-a2ca-81a84ba991e2.png)
+
+# Information Security Controls
+
+This section deals with Information Assurance (IA), defense-in-depth, risk management, cyber threat intelligence, threat modeling, incident management, and AI and ML concepts
+
+![image](https://user-images.githubusercontent.com/63270579/194638470-ef3c35d6-8f6f-4ef3-bec9-cc6cf9832da2.png)
+
+## Defense-in-Depth
+
+![image](https://user-images.githubusercontent.com/63270579/194639175-f7e81c0d-791b-41cd-bf57-7306904c0dc8.png)
+
+
+## What is Risk
+
+![image](https://user-images.githubusercontent.com/63270579/194639299-d1c2fc55-2b06-482e-8998-2b70aa67d71f.png)
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
