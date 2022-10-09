@@ -208,6 +208,10 @@ Technical threat intelligence provides information about resources an attacker u
 
 Incident management is a set of defined processes to identify, analyze, prioritize, and resolve security incidents to restore the system to normal service operations as soon as possible, and prevent recurrence of the incident. It involves not only responding to incidents but also triggering alerts to prevent potential risks and threats. A security administrator must identify software that is open to attacks before someone takes advantage of the vulnerabilities. 
 
+## Incident Handling and Response
+
+![image](https://user-images.githubusercontent.com/63270579/194779000-514a615d-77e4-4390-8a28-ada483a5aae5.png)
+
 
 
 
