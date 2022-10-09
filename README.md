@@ -169,10 +169,47 @@ This section deals with Information Assurance (IA), defense-in-depth, risk manag
 
 ![image](https://user-images.githubusercontent.com/63270579/194640323-d29884d2-f8c3-49e1-b432-75bd53849ec9.png)
 
+### Strategic Threat Intelligence
+
+***This information is consumed by the high-level executives and management of the organization, such as IT management and CISO.***
+
+La inteligencia de amenazas estratégicas generalmente tiene la forma de un informe que se enfoca principalmente en estrategias comerciales de alto nivel. Dado que la característica de la inteligencia de amenazas estratégicas es preeminente, la recopilación de datos también se relaciona con fuentes de alto nivel y requiere profesionales altamente calificados para extraer información. Esta inteligencia se recopila de fuentes como OSINT, proveedores de CTI e ISAO e ISAC.
+
+ The financial impact of cyber activity o Attribution for intrusions and data breaches
+ Threat actors and attack trends o The threat landscape for various industry sectors o Statistical information on data breaches, data theft, and malware o Geopolitical conflicts involving various cyberattacks o Information on how adversary TTPs change over time o Industry sectors that might impact due to high-level business decisions
+
+
+###  Tactical Threat Intelligence
+
+La inteligencia de amenazas tácticas juega un papel importante en la protección de los recursos de la organización. Proporciona información relacionada con los TTP utilizados por los actores de amenazas (atacantes) para realizar ataques. La inteligencia de amenazas tácticas ***es consumida por profesionales de la ciberseguridad, como gerentes de servicios de TI, gerentes de operaciones de seguridad, personal del centro de operaciones de red (NOC), administradores y arquitectos.*** Ayuda a los profesionales de ciberseguridad a comprender cómo se espera que los adversarios realicen su ataque a la organización, identificar la fuga de información de la organización y evaluar las capacidades técnicas y los objetivos de los atacantes junto con los vectores de ataque. Usando inteligencia táctica de amenazas, el personal de seguridad desarrolla estrategias de detección y mitigación de antemano a través de procedimientos como la actualización de productos de seguridad con indicadores identificados y parches de sistemas vulnerables.
+
+The collection sources for tactical threat intelligence include campaign reports, malware, incident reports, attack group reports, and human intelligence, among other information. This intelligence is generally obtained by reading white or technical papers, communicating with other organizations, or purchasing intelligence from third parties. It includes highly technical information on topics such as malware, campaigns, techniques, and tools in the form of forensic reports. Tactical threat intelligence provides day-to-day operational support by helping analysts assess various security incidents related to events, investigations, and other activities. It also guides the high-level executives of the organizations in making strategic business decisions.
+
+
+#### Operational Threat Intelligence
+
+La inteligencia de amenazas operativas proporciona información sobre amenazas específicas contra la organización. Proporciona información contextual sobre eventos e incidentes de seguridad que ayudan a los defensores a revelar riesgos potenciales, proporcionar una mayor comprensión de las metodologías de los atacantes, identificar actividades maliciosas pasadas y realizar investigaciones sobre actividades maliciosas de una manera más eficiente. Lo consumen los administradores de seguridad o los jefes de respuesta a incidentes, los defensores de la red, los forenses de seguridad y los equipos de detección de fraude. Ayuda a las organizaciones a comprender los posibles actores de amenazas y su intención, capacidad y oportunidad de atacar los activos de TI vulnerables y el impacto de un ataque exitoso. En muchos casos, solo las organizaciones gubernamentales pueden recopilar este tipo de inteligencia. Sin embargo, hacerlo ayuda a los equipos forenses y de IR a implementar activos de seguridad 
+
+Operational threat intelligence is generally collected from sources such as humans, social media, and chat rooms; it may and also be collected from the real-world activities and events that result in cyberattacks. Operational threat intelligence is obtained by analyzing human behavior, threat groups, and by similar means. This information helps to predict future attacks and thus enhances incident response plans and mitigation strategies. Operational threat intelligence generally appears as a report that contains identified malicious activities, recommended courses of action, and warnings of emerging attacks.
+
+Technical threat intelligence provides information about resources an attacker uses to perform an attack; this includes command and control channels, tools, and other items. It has a shorter lifespan compared to tactical threat intelligence and mainly focuses on a specific IoC. It provides rapid distribution and response to threats. For example, a piece of malware used to perform an attack is tactical threat intelligence, whereas the details related to the specific implementation of the malware come under technical threat intelligence. Other examples of technical threat intelligence include the specific IP addresses and domains used by malicious endpoints, phishing email headers, and hash checksums of malware, among others. Technical threat intelligence is consumed by SOC staff and IR teams. 
+
+####  Technical Threat Intelligence 
+
+Technical threat intelligence provides information about resources an attacker uses to perform an attack; this includes command and control channels, tools, and other items. It has a shorter lifespan compared to tactical threat intelligence and mainly focuses on a specific IoC. It provides rapid distribution and response to threats. For example, a piece of malware used to perform an attack is tactical threat intelligence, whereas the details related to the specific implementation of the malware come under technical threat intelligence. Other examples of technical threat intelligence include the specific IP addresses and domains used by malicious endpoints, phishing email headers, and hash checksums of malware, among others. Technical threat intelligence is consumed by SOC staff and IR teams. The indicators of technical threat intelligence are collected from active campaigns, attacks that are performed on other organizations, or data feeds provided by external third parties. These indicators are generally collected as part of investigations of attacks performed on various organizations. This information helps security professionals add the identified indicators to the defensive systems such as IDS and IPS, firewalls, and endpoint security systems, thereby enhancing the detection mechanisms used to identify the attacks at an early stage. It also helps them identify malicious traffic and IP addresses suspected of spreading malware and spam emails. This intelligence is directly fed into the security devices in digital format to block and identify inbound and outbound malicious traffic entering the organization’s network.
+
+## Threat Modeling 
+
+![image](https://user-images.githubusercontent.com/63270579/194738489-a7b62197-098c-43e3-b26a-e44943ca0d01.png)
+
+## Incident Management
+
+![image](https://user-images.githubusercontent.com/63270579/194738915-3f9a6ce2-4e35-4ed6-8f3f-dd97f3fa6ffb.png)
+
+Incident management is a set of defined processes to identify, analyze, prioritize, and resolve security incidents to restore the system to normal service operations as soon as possible, and prevent recurrence of the incident. It involves not only responding to incidents but also triggering alerts to prevent potential risks and threats. A security administrator must identify software that is open to attacks before someone takes advantage of the vulnerabilities. 
 
 
 
- 
 
 
 
