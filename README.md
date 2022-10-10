@@ -229,7 +229,13 @@ Incident management is a set of defined processes to identify, analyze, prioriti
 ![image](https://user-images.githubusercontent.com/63270579/194788161-a78a16ff-e87f-4515-b3f1-81db096fda64.png)
 
 
+### Footprinting 
 
+![image](https://user-images.githubusercontent.com/63270579/194792398-b5e9f494-9fae-4614-bcb2-07a256cdfd10.png)
+
+
+Footprinting is the first step in the evaluation of the security posture of the IT infrastructure of a
+target organization. Through footprinting and reconnaissance, one can gather maximum information about a computer system or a network and about any device connected to that network. In other words, footprinting provides a security profile blueprint for an organization and should be undertaken in a methodological manner
 
 
 
