@@ -212,6 +212,23 @@ Incident management is a set of defined processes to identify, analyze, prioriti
 
 ![image](https://user-images.githubusercontent.com/63270579/194779000-514a615d-77e4-4390-8a28-ada483a5aae5.png)
 
+## Information Security Laws and Standards
+
+### Payment Card Industry Data Security Standard (PCI DSS) 
+
+![image](https://user-images.githubusercontent.com/63270579/194787427-017c25ac-a108-4f08-bf7b-9c8d394e1e21.png)
+
+![image](https://user-images.githubusercontent.com/63270579/194787807-900e6834-2c47-4c22-8ede-fcf92ab026b1.png)
+
+### ISO/IEC 27001:2013 
+
+![image](https://user-images.githubusercontent.com/63270579/194788038-42dd84f4-bf50-4879-90ce-a566a4a86ef7.png)
+
+### Health Insurance Portability and Accountability Act (HIPAA) Source: https://www.hhs.gov
+
+![image](https://user-images.githubusercontent.com/63270579/194788161-a78a16ff-e87f-4515-b3f1-81db096fda64.png)
+
+
 
 
 
