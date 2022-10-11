@@ -238,16 +238,72 @@ Footprinting is the first step in the evaluation of the security posture of the 
 target organization. Through footprinting and reconnaissance, one can gather maximum information about a computer system or a network and about any device connected to that network. In other words, footprinting provides a security profile blueprint for an organization and should be undertaken in a methodological manner
 
 
+## Pasive 
+
+over the Internet. We can only collect archived and stored information about the target using search engines, social networking sites, and so on. Passive footprinting techniques include: o Finding information through search engines o Finding the Top-level Domains (TLDs) and sub-domains of a target through web services
+o Collecting location information on the target through web services o Performing people search using social networking sites and people search services o Gathering financial information about the target through financial services o Gathering infrastructure details of the target organization through job sites o Collecting information through deep and dark web footprinting o Determining the operating systems in use by the target organization o Performing competitive intelligence o Monitoring the target using alert services o Gathering information using groups, forums, blogs, and NNTP Usenet newsgroups o Collecting information through social engineering on social networking sites o Extracting information about the target using Internet archives o Gathering information using business profile sites o Monitoring website traffic of the target o Tracking the online reputation of the target.
+
+## Active 
+
+## Footprinting Methodology
+
+![image](https://user-images.githubusercontent.com/63270579/194973002-e2502786-69cb-405c-a8e2-38f2d3923bf8.png)
+
+ Footprinting through search engines
+ Footprinting through web services  Footprinting through social networking sites 
+ Website footprinting 
+ Email footprinting 
+ Whois footprinting 
+ DNS footprinting
+ Network footprinting  Footprinting through social engineering
+
+![image](https://user-images.githubusercontent.com/63270579/194973287-2466efe9-766a-4801-8965-f82e589f0dd0.png)
+
+## What is the Google Hacking Database?
+The Google Hacking Database (GHDB) is a compendium of Google hacking search terms that have been found to reveal sensitive data exposed by vulnerable servers and web applications. The GHDB was launched in 2000 by Johnny Long to serve penetration testers
+
+> https://www.exploit-db.com/google-hacking-database
+
+#### FTP 
+
+NAPALM FTP Indexer online tool to search for critical files and documents related to the target domain.
+
+### Footprinting through Web Services
+
+![image](https://user-images.githubusercontent.com/63270579/194974826-79565144-30a0-4d0f-8167-44f8c727ed1d.png)
+
+This section aims to familiarize you with finding the target company’s top-level domains, sub-domains, and geographical location, performing people search on social networking sites and people search services, gathering information from job sites, financial services, third-party data repositories, performing deep and dark web footprinting, determining the operating system, VOIP and VPN footprinting through Shodan, gathering competitive intelligence, etc.
+
+### Finding a Company’s Top-Level Domains (TLDs) and Sub-domains
+
+![image](https://user-images.githubusercontent.com/63270579/194975136-ed5f8d64-3635-4e8b-8602-bcd02e00c21a.png)
+
+A company's top-level domains (TLDs) and sub-domains can provide a large amount of useful information to an attacker. A public website is designed to show the presence of an organization on the Internet. It is available for free public access. It is designed to attract customers and partners. It may contain information such as organizational history, services and products, and contact information. The target organization’s external URL can be located with the help of search engines such as Google and Bing.
+
+The sub-domain is available to only a few people. These persons may be employees of an organization or members of a department. In many organizations, website administrators create sub-domains to test new technologies before deploying them on the main website. Generally, these sub-domains are in the testing stage and are insecure; hence, they are more vulnerable to various exploitations. Sub-domains provide insights into the different departments and business units in an organization. Identifying such sub-domains may reveal critical information regarding the target, such as the source code of the website and documents on the webserver. Access restrictions can be applied based on the IP address, domain or subnet, username, and password. The sub-domain helps to access the private functions of an organization. Most organizations use common formats for sub-domains. Therefore, a hacker who knows the external URL of a company can often discover the sub-domain through trial and error, or by using a service such as Netcraft.
+
+***You can also use the advanced Google search operator shown below to identify all the sub-domains of the target: site:microsoft.com -inurl:www***
+
+![Uploading image.png…]()
+
+Netcraft Source: https://www.netcraft.com Netcraft provides Internet security services, including anti-fraud and anti-phishing services, application testing, and PCI scanning. They also analyze the market share of web servers, operating systems, hosting providers and SSL certificate authorities, and other parameters of the Internet. As shown in the screenshot below, attackers can use Netcraft to obtain all the sub-domains related to the target domain.
+
+ ### Sublist3r Source: https://github.com Sublist3r
+ 
+ is a Python script designed to enumerate the subdomains of websites using OSINT. It enables you to enumerate subdomains across multiple sources at once. Further, it helps penetration testers and bug hunters in collecting and gathering subdomains for the domain they are targeting. It enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu, and Ask. It also enumerates subdomains using Netcraft, VirusTotal, ThreatCrowd, DNSdumpster, and ReverseDNS
+
+### Gathering Information from LinkedIn
+
+ #### theHarvester Source: http://www.edge-security.com
+ 
+ theHarvester is a tool designed to be used in the early stages of a penetration test. It is used for open-source intelligence gathering and helps to determine a company's external threat landscape on the Internet. Attackers use this tool to perform enumeration on the LinkedIn social networking site to find employees of the target company along with their job titles.
+
+### Tools for Footprinting
+
+through Social Networking Sites Attackers use various tools such Sherlock, Social Searcher, and UserRecon to footprint social networking sites such as Twitter, Instagram, Facebook, and Pinterest to gather sensitive information about the target such as DOB, educational qualification, employment status, name of the relatives, and information about the organization that they are working for, including the business strategy, potential clients, and upcoming project plans.  Sherlock Source: https://github.com As shown in the screenshot, attackers use Sherlock to search a vast number of social networking sites for a target username. This tool helps the attacker to locate the target user on various social networking sites along with the complete URL.
 
 
-
-
-
-
-
-
-
-
+Gathering Wordlist from the Target Website The words available on the target website may reveal critical information that helps attackers to perform further exploitation. Attackers gather a list of email addresses related to the target organization using various search engines, social networking sites, web spidering tools, etc. After obtaining these email addresses, an attacker can gather a list of words available on the target website. This information helps the attacker to perform brute-force attacks on the target organization. An attacker uses the CeWL tool to gather a list of words from the target website and perform a brute-force attack on the email addresses gathered earlier. 
 
 
 
