@@ -315,23 +315,102 @@ footprinting) in the ARIN Whois database search tool. A user can also visit the 
 
 ![image](https://user-images.githubusercontent.com/63270579/195385696-4eb6a3b6-f8f1-4866-ab0c-451ecccc7736.png)
 
-![image](https://user-images.githubusercontent.com/63270579/195386405-4f16f70e-e3fc-4861-b64b-def7ef3a804a.png)
+
+#### Comandos interesantes
+
+![image](https://user-images.githubusercontent.com/63270579/195388151-d89656ee-0b50-4e2c-8d82-e7eff8a8408b.png)
+
+```
+tracert ip destino
+tcptraceroute 10.10.1.123(ip destino)
+```
+
+ ### Footprinting through Social Engineering
 
 
+![image](https://user-images.githubusercontent.com/63270579/195391398-9bfc49c5-d9e8-4378-b145-59b670c25be1.png)
+
+### Collecting Information Using Eavesdropping, Shoulder Surfing, Dumpster Diving, and Impersonation 
+
+![image](https://user-images.githubusercontent.com/63270579/195391631-38a996c3-f51a-4432-827a-e7a813a6bc26.png)
+
+![image](https://user-images.githubusercontent.com/63270579/195391772-aae2811c-c214-4c63-b51e-cbfdae2fa87a.png)
+
+![image](https://user-images.githubusercontent.com/63270579/195392143-763f3e4e-467e-48f0-9610-7feae1ba52c9.png)
+
+![image](https://user-images.githubusercontent.com/63270579/195393802-c6977288-673d-4e06-afe5-02a98f8d4ad0.png)
+
+### How to avoid DNS Zone trasfer
+
+Transferencia de zona DNS (DNS zone transfer)
+Las Transferencias de zona dns, a veces llamadas AXFR por el tipo de solicitud, es un tipo de transacción de DNS. Es uno de varios mecanismos disponibles para administradores para replicar bases de datos DNS a través de un conjunto de servidores DNS.
+
+![image](https://user-images.githubusercontent.com/63270579/195394485-358c8c72-a346-43f4-82a8-b7e669393f9e.png)
 
 
+# Module 3 Scanning
+
+![image](https://user-images.githubusercontent.com/63270579/195395671-ee26041f-8915-46d6-bc84-d713bf3887b2.png)
+
+Aqui lo manejan como network scan descurbir host vivos, vulnerabilitis vulnerabilidades y port scan puertos y servicios
+
+## TCP/IP Communication
+
+![image](https://user-images.githubusercontent.com/63270579/195398167-8693cd38-d9bc-45cc-905f-c69283e8ee88.png)
+
+A TCP session initiates using a three-way handshake mechanism:  To launch a TCP connection, the source (10.0.0.2:21) sends a SYN packet to the destination (10.0.0.3:21).
+
+ On receiving the SYN packet, the destination responds by sending a SYN/ACK packet back to the source.
+
+ The ACK packet confirms the arrival of the first SYN packet to the source.  Finally, the source sends an ACK packet for the ACK/SYN packet transmitted by the destination.
+
+ This triggers an "OPEN" connection, thereby allowing communication between the source and destination, which continues until one of them issues a "FIN" or "RST" packet to close the connection.
 
 
+## The system terminates the established TCP session as follows:
+
+![image](https://user-images.githubusercontent.com/63270579/195407722-23820e2c-b860-4303-b417-5b767e85b499.png)
+
+![image](https://user-images.githubusercontent.com/63270579/195418932-83137ca8-24df-406f-8d4a-5d98d682d213.png)
+
+### Host Discovery Techniques
+
+![image](https://user-images.githubusercontent.com/63270579/195419204-b6156710-0e70-4442-9dd0-000f28454b46.png)
+
+#### ARP Scan is by default in nmap
+
+![image](https://user-images.githubusercontent.com/63270579/195419933-66f1f5e3-0d14-4e1f-a045-d14dbba59f1d.png)
 
 
+### UDP ping Scan 
+
+![image](https://user-images.githubusercontent.com/63270579/195420231-16469310-f626-4020-95f0-3f57c34eb9fb.png)
+
+### Ping Sweep Tool
 
 
+![image](https://user-images.githubusercontent.com/63270579/195420692-da0b1e0c-58a7-409f-827d-239816a09825.png)
 
 
+![image](https://user-images.githubusercontent.com/63270579/195421246-1d4a21a4-f1ae-4722-b52b-cbe98ee05452.png)
+
+### Port Scanning Techniques
+
+![image](https://user-images.githubusercontent.com/63270579/195421584-62148b65-78ee-4bb0-8c53-d09f60a83bb3.png)
 
 
+## Stream Control Transmission Protocol SCTP
+
+SCTP (Stream Transmission Control Protocol - Protocolo de control de transmisiones de corrientes) es un protocolo orientado a las conexiones, similar a TCP, pero proporciona la transferencia de datos orientada a mensajes, similar a UDP. El sistema operativo AIX cumple con RFC 4960
+
+## What is SSDP scanning?
+
+Simple Service Discovery Protocol (SSDP) is a networking protocol used to discover the directly connected devices. This protocol uses UDP using plug and play devices in order to exchange data. It works on port 1900
 
 
+### IDS/Firewall Evasion Techniques
+
+![image](https://user-images.githubusercontent.com/63270579/195424061-a45a077f-cf25-497e-877d-366ac0aee9ee.png)
 
 
 
