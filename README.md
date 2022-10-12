@@ -284,7 +284,7 @@ The sub-domain is available to only a few people. These persons may be employees
 
 ***You can also use the advanced Google search operator shown below to identify all the sub-domains of the target: site:microsoft.com -inurl:www***
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/63270579/195385238-7c60551e-c53f-4c91-a0ee-74adbd623d09.png)
 
 Netcraft Source: https://www.netcraft.com Netcraft provides Internet security services, including anti-fraud and anti-phishing services, application testing, and PCI scanning. They also analyze the market share of web servers, operating systems, hosting providers and SSL certificate authorities, and other parameters of the Internet. As shown in the screenshot below, attackers can use Netcraft to obtain all the sub-domains related to the target domain.
 
@@ -304,6 +304,20 @@ through Social Networking Sites Attackers use various tools such Sherlock, Socia
 
 
 Gathering Wordlist from the Target Website The words available on the target website may reveal critical information that helps attackers to perform further exploitation. Attackers gather a list of email addresses related to the target organization using various search engines, social networking sites, web spidering tools, etc. After obtaining these email addresses, an attacker can gather a list of words available on the target website. This information helps the attacker to perform brute-force attacks on the target organization. An attacker uses the CeWL tool to gather a list of words from the target website and perform a brute-force attack on the email addresses gathered earlier. 
+
+## Network Footprinting
+
+![image](https://user-images.githubusercontent.com/63270579/195385535-34e2be3a-d4b9-49b7-ac85-f53133b60b91.png)
+
+After gathering the information, an attacker can proceed to find the network range of a target system. Detailed information is available from the appropriate regional registry database regarding IP allocation and the nature of the allocation. An attacker can also determine the subnet mask of the domain and trace the route between the system and the target system. Traceroute tools that are widely used include Path Analyzer Pro and VisualRoute. Obtaining private IP addresses can be useful to attackers. The Internet Assigned Numbers Authority (IANA) has reserved the following three blocks of the IP address space for private internets: 10.0.0.0–10.255.255.255 (10/8 prefix), 172.16.0.0–172.31.255.255 (172.16/12 prefix), and 192.168.0.0–192.168.255.255 (192.168/16 prefix). Using the network range, the attacker can get information about how the network is structured and which machines in the networks are alive. Using the network range also helps to identify the network topology, access control device, and OS used in the target network. To find the network range of the target network, one needs to enter the server IP address (that was gathered in Whois
+
+footprinting) in the ARIN Whois database search tool. A user can also visit the ARIN website (https://www.arin.net/about/welcome/region) and enter the server IP in the SEARCH Whois text box. This gives the network range of the target network. Improperly set up DNS servers offer attackers a good chance of obtaining a list of internal machines on the server. In addition, sometimes, if an attacker traces a route to a machine, it is possible to obtain the internal IP address of the gateway, which can be useful.
+
+![image](https://user-images.githubusercontent.com/63270579/195385696-4eb6a3b6-f8f1-4866-ab0c-451ecccc7736.png)
+
+![image](https://user-images.githubusercontent.com/63270579/195386405-4f16f70e-e3fc-4861-b64b-def7ef3a804a.png)
+
+
 
 
 
