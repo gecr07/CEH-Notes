@@ -412,8 +412,41 @@ Simple Service Discovery Protocol (SSDP) is a networking protocol used to discov
 
 ![image](https://user-images.githubusercontent.com/63270579/195424061-a45a077f-cf25-497e-877d-366ac0aee9ee.png)
 
+## Network Discovery and Mapping Tools
 
 
+![image](https://user-images.githubusercontent.com/63270579/195933734-f7135edf-3163-4dea-9890-b479eaf3de23.png)
+
+Network discovery and mapping tools allow you to view the map of your network. They help you to detect rogue hardware and software violations and notify you whenever a particular host becomes active or goes down. Thus, you can also determine server outages or problems related to performance. An attacker can use the same tools to draw a diagram of the target network, analyze the topology, find the vulnerabilities or weak points, and launch an attack by exploiting these weak points.
+
+### Network Topology Mapper
+
+The Network Topology Mapper tool allows one to automatically discover and create a network map of the target network. It can also display in-depth connections such as OSI Layer 2 and Layer 3 topology data (e.g., switch-to-switch, switch-to-node, and switch-to-router connections). It can keep track of network changes and allow the user to perform inventory management of hardware and software assets.
+
+1. OpManager (https://www.manageengine.com) 
+2. The Dude (https://www.mikrotik.com) 
+3. NetSurveyor (http://nutsaboutnets.com) 
+4. NetBrain (https://www.netbraintech.com) 
+5. Spiceworks Network Mapping Tool (https://www.spiceworks.com)
+
+
+# Modulo 4 Enumeracion
+
+![image](https://user-images.githubusercontent.com/63270579/195935789-378ca0d4-6a60-40e6-9e91-442ac21d237e.png)
+
+![image](https://user-images.githubusercontent.com/63270579/195936012-6c6d23c4-c9f8-4982-95d2-0be554e0b96d.png)
+
+During enumeration, attackers may stumble upon a remote inter-process communication (IPC) share, such as IPC$ in Windows, which they can probe further to connect to an administrative share by brute-forcing admin credentials and obtain complete information about the file-system listing that the share represents.
+
+![image](https://user-images.githubusercontent.com/63270579/195938907-ccbe54e9-55a0-4cd3-8288-07d40e8528f5.png)
+
+## Services and Ports to Enumerate
+
+![image](https://user-images.githubusercontent.com/63270579/195940278-bc6fa57d-0ddb-4148-a8cc-48ed23d3c09e.png)
+
+## Netbios
+
+![image](https://user-images.githubusercontent.com/63270579/195942680-64053a23-f680-42c5-b1c7-7891fa8b1184.png)
 
 
 
@@ -436,6 +469,7 @@ Simple Service Discovery Protocol (SSDP) is a networking protocol used to discov
 In cybersecurity is the process of investigating an individual or organization's trash to retrieve information that could be used to compromise network resources or plan a cyberattack. A person going through your trash can gather enough data to create a complex profile and commit identity theft.
 
 
+## 
 
 
 
