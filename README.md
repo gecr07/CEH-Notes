@@ -470,6 +470,11 @@ Various protocols enable communication and manage data transfer between network 
 Administrators often overlook the Network Time Protocol (NTP) server when considering security. However, if queried properly, it can provide valuable network information to an attacker. Therefore, it is necessary to know what information an attacker can obtain about a network through NTP enumeration. The Network File System (NFS) is used for the management of remote file access. NFS enumeration helps attackers to gather information such as a list of clients connected to the NFS server, along with their IP addresses, and exported directories.
 
 
+# Module 5 Vulnerability Analysis
+
+![image](https://user-images.githubusercontent.com/63270579/195954229-363f3340-5c9b-4fdf-8004-52a34e6bfa8d.png)
+
+![image](https://user-images.githubusercontent.com/63270579/195954533-016f48ce-90d4-4f04-9163-c72826f5bae8.png)
 
 
 
