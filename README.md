@@ -449,6 +449,25 @@ During enumeration, attackers may stumble upon a remote inter-process communicat
 ![image](https://user-images.githubusercontent.com/63270579/195942680-64053a23-f680-42c5-b1c7-7891fa8b1184.png)
 
 
+## Enumerating User Accounts
+
+![image](https://user-images.githubusercontent.com/63270579/195943913-884a0bea-e130-429d-bba1-41b5f2d3606b.png)
+
+## SNMP Enumeration
+
+![image](https://user-images.githubusercontent.com/63270579/195944080-17eb85d2-7127-49ad-922e-49ae6b5670ef.png)
+
+SNMP allows network administrators to manage network devices from a remote location. However, SNMP has many security vulnerabilities, such as a lack of auditing. Attackers may take advantage of these vulnerabilities to perform account and device enumeration. This section describes SNMP enumeration, the information extracted via SNMP enumeration, and various SNMP enumeration tools used to enumerate user accounts and devices on a target system
+
+
+## LDAP Enumeration
+
+Various protocols enable communication and manage data transfer between network resources. All these protocols carry valuable information about network resources along with the data. An external user who successfully enumerates that information by manipulating the protocols can break into the network and may misuse the network resources. The Lightweight Directory Access Protocol (LDAP) is one such protocol that accesses the directory listings. This section focuses on LDAP enumeration, the information extracted via LDAP enumeration, and LDAP enumeration tools.
+
+
+## NTP and NFS Enumeration
+
+Administrators often overlook the Network Time Protocol (NTP) server when considering security. However, if queried properly, it can provide valuable network information to an attacker. Therefore, it is necessary to know what information an attacker can obtain about a network through NTP enumeration. The Network File System (NFS) is used for the management of remote file access. NFS enumeration helps attackers to gather information such as a list of clients connected to the NFS server, along with their IP addresses, and exported directories.
 
 
 
