@@ -476,6 +476,16 @@ Administrators often overlook the Network Time Protocol (NTP) server when consid
 
 ![image](https://user-images.githubusercontent.com/63270579/195954533-016f48ce-90d4-4f04-9163-c72826f5bae8.png)
 
+![image](https://user-images.githubusercontent.com/63270579/196308877-cdeffb95-f132-4430-9ac1-b790ea8e4d21.png)
+
+![image](https://user-images.githubusercontent.com/63270579/196309071-f6f5a32e-61d6-47e0-939a-c2af820566b5.png)
+
+![image](https://user-images.githubusercontent.com/63270579/196309398-af5746a6-7f37-4643-8397-bb1b38037f3c.png)
+
+## Vulnerability-Management Life Cycle
+
+![image](https://user-images.githubusercontent.com/63270579/196310935-259199bb-3038-4b8f-a9c6-6854a9751660.png)
+
 
 
 
