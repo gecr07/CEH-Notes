@@ -486,9 +486,21 @@ Administrators often overlook the Network Time Protocol (NTP) server when consid
 
 ![image](https://user-images.githubusercontent.com/63270579/196310935-259199bb-3038-4b8f-a9c6-6854a9751660.png)
 
+## Types of Vulnerability Assessment
 
+![image](https://user-images.githubusercontent.com/63270579/196511122-18d7937b-4825-4e00-b40b-0f79c54cba3b.png)
 
+![image](https://user-images.githubusercontent.com/63270579/196511204-7d7da7b7-92eb-4d92-a9ff-456b33e058b6.png)
 
+## Approaches to Vulnerability Assesment
+
+![image](https://user-images.githubusercontent.com/63270579/196514817-e02849b2-f0e9-4a6a-9765-927940d91edb.png)
+
+![image](https://user-images.githubusercontent.com/63270579/196514918-b8612d4c-8eb1-494c-a38e-6d1b0544e2ca.png)
+
+## Types of Vulnerability Assessment Tools
+
+![image](https://user-images.githubusercontent.com/63270579/196516424-e9879174-348e-4871-8755-32e29a1ddd3c.png)
 
 
 
