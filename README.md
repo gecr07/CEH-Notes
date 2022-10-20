@@ -505,6 +505,7 @@ Administrators often overlook the Network Time Protocol (NTP) server when consid
 
 # System Hacking
 
+![image](https://user-images.githubusercontent.com/63270579/197025303-5ed5028a-efa1-404a-86c2-8a15947b599a.png)
 
 
 
