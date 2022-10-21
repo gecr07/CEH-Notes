@@ -511,6 +511,8 @@ Administrators often overlook the Network Time Protocol (NTP) server when consid
 
 ![image](https://user-images.githubusercontent.com/63270579/197255352-5f40999c-297e-4e92-a8f9-05201778a3fe.png)
 
+![image](https://user-images.githubusercontent.com/63270579/197277571-57d857e6-4fe1-4a9a-bd3f-f433691ac361.png)
+
 
 
 
@@ -521,7 +523,7 @@ Administrators often overlook the Network Time Protocol (NTP) server when consid
 In cybersecurity is the process of investigating an individual or organization's trash to retrieve information that could be used to compromise network resources or plan a cyberattack. A person going through your trash can gather enough data to create a complex profile and commit identity theft.
 
 
-## 
+
 
 
 
