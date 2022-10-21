@@ -513,6 +513,11 @@ Administrators often overlook the Network Time Protocol (NTP) server when consid
 
 ![image](https://user-images.githubusercontent.com/63270579/197277571-57d857e6-4fe1-4a9a-bd3f-f433691ac361.png)
 
+## Covering Track
+
+![image](https://user-images.githubusercontent.com/63270579/197289465-d0a1ab04-515c-478c-8796-4a982ad8ce3b.png)
+
+![image](https://user-images.githubusercontent.com/63270579/197289980-a161540a-a736-4d46-97a6-7f543e5710a6.png)
 
 
 
