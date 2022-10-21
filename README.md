@@ -507,6 +507,9 @@ Administrators often overlook the Network Time Protocol (NTP) server when consid
 
 ![image](https://user-images.githubusercontent.com/63270579/197025303-5ed5028a-efa1-404a-86c2-8a15947b599a.png)
 
+![image](https://user-images.githubusercontent.com/63270579/197255136-2d4ec5d4-e394-435a-b417-423c40342718.png)
+
+![image](https://user-images.githubusercontent.com/63270579/197255352-5f40999c-297e-4e92-a8f9-05201778a3fe.png)
 
 
 
