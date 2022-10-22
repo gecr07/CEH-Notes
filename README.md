@@ -519,6 +519,13 @@ Administrators often overlook the Network Time Protocol (NTP) server when consid
 
 ![image](https://user-images.githubusercontent.com/63270579/197289980-a161540a-a736-4d46-97a6-7f543e5710a6.png)
 
+# Module 07: Malware Threats
+
+![image](https://user-images.githubusercontent.com/63270579/197291872-ad390a39-95f7-4620-8ca1-5fb179f3ad62.png)
+
+![image](https://user-images.githubusercontent.com/63270579/197292149-7291feb5-a608-44c8-85a3-2da1ead74d2b.png)
+
+![image](https://user-images.githubusercontent.com/63270579/197292356-3791cf66-5b7d-444a-ba38-dce16cb442d6.png)
 
 
 # Glosario 
