@@ -580,10 +580,40 @@ http://www.facebook.com/bosonsoftware
 ```
 
 
+## What is Infoga ( Infoga - Email OSINT ) 
+
+> Infoga is a tool gathering email accounts informations (ip,hostname,country,...) from different public source (search engines, pgp key servers and shodan) and check if emails was leaked using haveibeenpwned.com API. Is a really simple tool, but very effective for the early stages of a penetration test or just to know the visibility of your company in the Internet.
+
+## Luma 
+
+Luma is a tool / utility / application for easy and userfriendly managment of LDAP data and a platform / framework for developing custom LDAP applications.
+
+## fgets()
 
 
+A diferencia de gets() checa los limites osea es mas segura no permite buffer over flow sin embargo gets() si 
+
+> https://www.cisa.gov/uscert/bsi/articles/knowledge/coding-practices/fgets-and-gets_s
 
 
+## SMTP 
+
+EHLO is a command to start a conversation with the protocol
+
+
+## HttpOnly Header
+
+> A cookie with the HttpOnly attribute is inaccessible to the JavaScript Document.cookie API; it is sent only to the server. For example, cookies that persist server-side sessions don't need to be available to JavaScript, and should have the HttpOnly attribute. This precaution helps mitigate cross-site scripting (XSS) attacks.
+
+## SNMP ( Simple Network Management Protocol ) 
+
+Existen tres versiones de SNMP: SNMP versión 1 (SNMPv1), SNMP versión 2 (SNMPv2) y SNMP versión 3 (SNMPv3) y por logica la ultima es la mas segura.
+
+## NMAP avoid IDs
+
+nmap use the -D option to spoofed IP address
+
+## ¿Qué es un ataque de whaling?
 
 
 
