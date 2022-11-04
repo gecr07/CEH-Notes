@@ -535,11 +535,49 @@ Administrators often overlook the Network Time Protocol (NTP) server when consid
 In cybersecurity is the process of investigating an individual or organization's trash to retrieve information that could be used to compromise network resources or plan a cyberattack. A person going through your trash can gather enough data to create a complex profile and commit identity theft.
 
 
+# Boson
 
+## curl
 
+```html
+<a href="http://blog.boson.com" target="_blank"><img src="/images/rss-icon.webp" border="0" alt="Boson Blog!" height="35" width="35" /></a>&nbsp;
+                        <a href="http://www.twitter.com/bosonsoftware" target="_blank"><img src="/images/twitter-icon.png" border="0" alt="Follow us on Twitter!" height="35" width="35" /></a>&nbsp;
+                        <a href="http://www.youtube.com/bosonsoftware" target="_blank"><img src="/images/youtube-icon.webp" border="0" alt="Boson on YouTube" height="35" width="35" /></a>&nbsp;
+                        <a href="http://www.linkedin.com/company/boson" target="_blank"><img src="/images/linkedin-icon.png" border="0" alt="Connect with Boson on LinkedIn!" height="35" width="35" /></a>&nbsp;
+                        <a href="http://www.facebook.com/bosonsoftware" target="_blank"><img src="/images/facebook-icon.png" border="0" alt="Boson Facebook Fan Page" height="35" width="35" /></a>
 
+```
 
+```
+curl -s "https://www.boson.com" | grep "<a href=\"http" | cut -d "\"" -f2 
 
+```
+
+El resultado como se esta usando el delimitador de " ve que se esta escapando las dobles comillas osea el delimitador
+
+```
+http://blog.boson.com
+http://www.twitter.com/bosonsoftware
+http://www.youtube.com/bosonsoftware
+http://www.linkedin.com/company/boson
+http://www.facebook.com/bosonsoftware
+
+```
+ Con f1 de haber algo de confucion
+ 
+ ```
+ curl -s "https://www.boson.com" | grep "<a href=\"http" | cut -d "\"" -f1
+ 
+ ```
+ 
+```
+                         <a href=
+                        <a href=
+                        <a href=
+                        <a href=
+                        <a href=
+
+```
 
 
 
