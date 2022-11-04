@@ -624,3 +624,13 @@ Tipo de virus que sobrescribe una parte del fichero, generalmente áreas vacías
 ## DGA Domain Generator Algorithm
 
 Qué es un DGA? Para evadir la detección, generan nombres de dominio y direcciones IP para servidores de comando y control de malware.
+
+## ZoomInfo
+
+ZoomInfo Technologies Inc. es una empresa de software y datos que proporciona información y datos para empresas y personas de negocios.
+
+## Web-Stat 
+
+Web Statistics are log files that measure the behaviour of visitors and track details of your website. This is a useful tool for businesses as it measures and qualifies aspects of the website working towards business objectives. Highlighting which landing pages most effectively encourage people to make a purchase.
+
+
