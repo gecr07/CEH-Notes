@@ -615,7 +615,12 @@ nmap use the -D option to spoofed IP address
 
 ## ¿Qué es un ataque de whaling?
 
+Un ataque de whaling es un método que usan los cibercriminales para simular ocupar cargos de nivel superior en una organización y así atacar directamente a los altos ejecutivos u otras personas importantes dentro de ella, con el objeto de robar dinero, conseguir información confidencial u obtener acceso a sus sistemas informáticos con fines delictivos. El whaling, también conocido como CEO fraud, es similar al phishing en cuanto a que usa métodos, como la suplantación de sitios web y correos electrónicos, para engañar a la víctima y hacer que revele información confidencial o haga transferencias de dinero, entre otras acciones.
 
+## Cavity Virus
 
+Tipo de virus que sobrescribe una parte del fichero, generalmente áreas vacías (rellenas de null), lo que no incrementa la longitud del fichero, y mantiene su funcionalidad, dificultando así su localización.
 
+## DGA Domain Generator Algorithm
 
+Qué es un DGA? Para evadir la detección, generan nombres de dominio y direcciones IP para servidores de comando y control de malware.
