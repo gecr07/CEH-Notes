@@ -640,3 +640,23 @@ Qué es un RIR? Regional Internet Registry (RIR) es una organización que superv
 
 ![image](https://user-images.githubusercontent.com/63270579/202231045-54567763-e775-4a73-a19d-671d6ba2670f.png)
 
+## Script enip-info
+
+Para asacar informacion de dispositivos 
+
+nmap --script enip-info -sU -p 44818 <host>
+ 
+ 
+ > This NSE script is used to send a EtherNet/IP packet to a remote device that has TCP 44818 open. The script will send a Request Identity Packet and once a response is received, it validates that it was a proper response to the command that was sent, and then will parse out the data. Information that is parsed includes Device Type, Vendor ID, Product name, Serial Number, Product code, Revision Number, status, state, as well as the Device IP.
+ 
+ > https://nmap.org/nsedoc/scripts/enip-info.html
+ 
+ ## WPA3 y DragonBlood
+ 
+ Nuevo protocolo de intercambio de claves Dragonfly WPA3 es una nueva forma de intercambiar llaves
+ 
+ Se trata de un nuevo ataque para el handshake de WPA3
+ 
+ > Dragonblood: What You Need to Know About the Latest WPA3 Vulnerabilities
+ 
+ 
