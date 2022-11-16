@@ -730,14 +730,41 @@ Mirai then identifies vulnerable IoT devices using a table of more than 60 commo
  
  ## Cyber Kill Chain Phases
  
+ ![image](https://user-images.githubusercontent.com/63270579/202317574-6f4ee32f-aeec-4271-9f94-e20a66cb0036.png)
+
+ 
 ![image](https://user-images.githubusercontent.com/63270579/202317354-7e04fdcf-d2a2-46cb-8c41-ab9bf6b8c14a.png)
 
  
  ![image](https://user-images.githubusercontent.com/63270579/202317386-0de82f34-a53a-4f44-ba6f-cad61cbdb832.png)
 
+ ## HIPAA 
+ 
+ Health Insurance Portability and Accountability Act of 1996 (HIPAA). 
+The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is a federal law that required the creation of national standards to protect sensitive patient health information from being disclosed without the patient’s consent or knowledge. The US Department of Health and Human Services (HHS) issued the HIPAA Privacy Rule to implement the requirements of HIPAA. The HIPAA Security Rule protects a subset of information covered by the Privacy Rule.
+ 
+ ## LDAP port 389
+ 
+ El protocolo ligero de acceso a directorios (en inglés: Lightweight Directory Access Protocol, también conocido por sus siglas de LDAP) hace referencia a un protocolo a nivel de aplicación que permite el acceso a un servicio de directorio ordenado y distribuido para buscar diversa información en un entorno de red.
+
+Un directorio es un conjunto de objetos con atributos organizados en una manera lógica y jerárquica. El ejemplo más común es el directorio telefónico, que consiste en una serie de nombres (personas u organizaciones) que están ordenados alfabéticamente, con cada nombre teniendo una dirección y un número de teléfono adjuntos. Para entender mejor, es un libro o carpeta, en la cual se escriben nombres de personas, teléfonos y direcciones, y se ordena alfabéticamente.
+ 
+ ## Spanning Tree Protocol (STP) Attacck
+ 
+ Spanning Tree Protocol (STP) es un protocolo que permite dotar a nuestra red de un entorno  de tolerancia ante fallos mediante la creación de enlaces redundantes. Estos enlaces generarán bucles en la red, lo cual  introduce serios problemas a nuestra infraestructura. Dada la ausencia de un campo como el TTL en las cabeceras del protocolo IP, que se decrementa en “1” por cada dispositivo de capa 3 por el que pasa; en una trama, unidad de capa 2, no hay nada similar con lo las tramas pueden circular indefinidamente en nuestra red. Esto es especialmente dañino en el caso de tramas Broadcast pudiendo afectar también el Unicast,  provocando una ralentización de la red tanto por el consumo de ancho de banda de los enlaces como de CPU de los switches.
+ 
+ ### Attakc 
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/202318807-0ec2392d-e23c-4a77-bf29-ea1abc31c575.png)
+
+ ## Nmap -g and --source-port (they are equivalent) for Source Port Manipulation
+ 
+ >  nmap -sS -v -v -Pn -g 88 172.25.0.14
+ 
+ Nmap offers the -g and --source-port options (they are equivalent) to exploit these weaknesses. Simply provide a port number, and Nmap will send packets from that port where possible. Nmap must use different port numbers for certain OS detection tests to work properly. Most TCP scans, including SYN scan, support the option completely, as does UDP scan. In May 2004, JJ Gray posted example Nmap scans to Bugtraq that demonstrate exploitation of the Windows IPsec source port 88 bug against one of his clients. A normal scan, followed by a -g 88 scan are shown in Example 10.7. Some output has been removed for brevity and clarity.
  
  
  
- 
+ > https://nmap.org/book/firewall-subversion.html#defeating-firewalls-sourceport88
  
  
