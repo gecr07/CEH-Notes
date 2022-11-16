@@ -692,8 +692,23 @@ nmap --script enip-info -sU -p 44818 <host>
  
  Lo imporante es ver que existen otros TCP X ping scans dependiendo del paquete que se vaya a enviar por ejemplo esta el TCP ACK ping  ( -PA ) o el UDP ping scans ( -PU ).
  
+ Usando ARP tambien se puede hacer un host discovery ( -PA ).
+ 
+ ## DNS Amplification 
+ 
+ Es una especia de DDos pero diferente porque 
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/202268356-d2b9932e-ee79-45c6-92b3-b4726dcb0edf.png)
+
+ ![image](https://user-images.githubusercontent.com/63270579/202268418-5f70091e-b4a7-4058-9675-57eef0cd958c.png)
+
+ 
+ ## Banner Grabbing with telnet
  
  
+ Whe you wat to kown the headers version of a server in port 80 yo have to use this:
+ 
+ HEAD /HTTP/ 1.0
  
  
  
