@@ -661,6 +661,8 @@ nmap --script enip-info -sU -p 44818 <host>
  
  Usa el SAE Simultaneus authentication of equals para rempralazar a las PSK ( pre shared keys ) ademas para proteger los datos entiendo que usa 
  
+ Dragonblood es el ataque por el cual analizan el handshake de DragonFly. Mas bien una serie de ataques hacia WPA3
+ 
  ## TCP Maimon Scan (-sM)
  
  This technique is exactly the same as NULL, FIN, and Xmas scan, except that the probe is FIN/ACK. According to RFC 793 (TCP), a RST packet should be generated in response to such a probe whether the port is open or closed. 
@@ -714,5 +716,30 @@ nmap --script enip-info -sU -p 44818 <host>
  ## Linear cripto analysis atack
  
  Cuando alguien tiene el plaint text y el cipher text entonces intenta adivinar la contraseña que se uso para encriptar para ver las futuras conversaciones es como un ataque de fuerza bruta.
+ 
+ ## APT Live clycle
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/202314473-29fe530f-a149-499d-a195-8009a80dc0b3.png)
+
+ 
+ ## Mirai port 48101
+ 
+Devices infected by Mirai continuously scan the internet for the IP address of Internet of things (IoT) devices. Mirai includes a table of IP address ranges that it will not infect, including private networks and addresses allocated to the United States Postal Service and Department of Defense.[13]
+
+Mirai then identifies vulnerable IoT devices using a table of more than 60 common factory default usernames and passwords, and logs into them to infect them with the Mirai malware.
+ 
+ ## Cyber Kill Chain Phases
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/202317184-a01fd57e-fc1d-44ba-a780-7ea1e947c490.png)
+ 
+
+ ![image](https://user-images.githubusercontent.com/63270579/202317247-166cdfc6-0afb-41e4-9747-d03228804b9c.png)
+
+ 
+ 
+ 
+ 
+ 
+ 
  
  
