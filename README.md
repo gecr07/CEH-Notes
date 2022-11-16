@@ -633,4 +633,10 @@ ZoomInfo Technologies Inc. es una empresa de software y datos que proporciona in
 
 Web Statistics are log files that measure the behaviour of visitors and track details of your website. This is a useful tool for businesses as it measures and qualifies aspects of the website working towards business objectives. Highlighting which landing pages most effectively encourage people to make a purchase.
 
+## Que es un RIR
+
+Qué es un RIR? Regional Internet Registry (RIR) es una organización que supervisa la asignación y el registro de recursos de números de Internet dentro de una región particular del mundo. Los recursos incluyen direcciones IP (tanto IPv4 como IPv6) y números de sistemas autónomos (para su uso en encaminamiento BGP).
+
+
+![image](https://user-images.githubusercontent.com/63270579/202231045-54567763-e775-4a73-a19d-671d6ba2670f.png)
 
