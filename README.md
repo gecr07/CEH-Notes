@@ -764,7 +764,6 @@ Un directorio es un conjunto de objetos con atributos organizados en una manera 
  Nmap offers the -g and --source-port options (they are equivalent) to exploit these weaknesses. Simply provide a port number, and Nmap will send packets from that port where possible. Nmap must use different port numbers for certain OS detection tests to work properly. Most TCP scans, including SYN scan, support the option completely, as does UDP scan. In May 2004, JJ Gray posted example Nmap scans to Bugtraq that demonstrate exploitation of the Windows IPsec source port 88 bug against one of his clients. A normal scan, followed by a -g 88 scan are shown in Example 10.7. Some output has been removed for brevity and clarity.
  
  
- 
  > https://nmap.org/book/firewall-subversion.html#defeating-firewalls-sourceport88
  
  
