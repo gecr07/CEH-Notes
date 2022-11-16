@@ -730,13 +730,11 @@ Mirai then identifies vulnerable IoT devices using a table of more than 60 commo
  
  ## Cyber Kill Chain Phases
  
- ![image](https://user-images.githubusercontent.com/63270579/202317184-a01fd57e-fc1d-44ba-a780-7ea1e947c490.png)
- 
-
- ![image](https://user-images.githubusercontent.com/63270579/202317247-166cdfc6-0afb-41e4-9747-d03228804b9c.png)
+![image](https://user-images.githubusercontent.com/63270579/202317354-7e04fdcf-d2a2-46cb-8c41-ab9bf6b8c14a.png)
 
  
- 
+ ![image](https://user-images.githubusercontent.com/63270579/202317386-0de82f34-a53a-4f44-ba6f-cad61cbdb832.png)
+
  
  
  
