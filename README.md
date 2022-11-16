@@ -711,4 +711,8 @@ nmap --script enip-info -sU -p 44818 <host>
  HEAD /HTTP/ 1.0
  
  
+ ## Linear cripto analysis atack
+ 
+ Cuando alguien tiene el plaint text y el cipher text entonces intenta adivinar la contraseña que se uso para encriptar para ver las futuras conversaciones es como un ataque de fuerza bruta.
+ 
  
