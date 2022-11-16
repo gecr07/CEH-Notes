@@ -659,4 +659,41 @@ nmap --script enip-info -sU -p 44818 <host>
  
  > Dragonblood: What You Need to Know About the Latest WPA3 Vulnerabilities
  
+ Usa el SAE Simultaneus authentication of equals para rempralazar a las PSK ( pre shared keys ) ademas para proteger los datos entiendo que usa 
+ 
+ ## TCP Maimon Scan (-sM)
+ 
+ This technique is exactly the same as NULL, FIN, and Xmas scan, except that the probe is FIN/ACK. According to RFC 793 (TCP), a RST packet should be generated in response to such a probe whether the port is open or closed. 
+ 
+ > https://nmap.org/book/scan-methods-maimon-scan.html
+
+ 
+ ## TCP FIN, NULL, and Xmas Scans (-sF, -sN, -sX)
+ 
+ When scanning systems compliant with this RFC text, any packet not containing SYN, RST, or ACK bits will result in a returned RST if the port is closed and no response at all if the port is open. As long as none of those three bits are included, any combination of the other three (FIN, PSH, and URG) are OK. Nmap exploits this with three scan types:
+ 
+![image](https://user-images.githubusercontent.com/63270579/202260818-e21184d2-3763-48a8-a4f6-f86dbd98b486.png)
+
+ ## Zoominfo
+ 
+ Informaciond e la empresa como lista de directivos y subordinados para esto siver esta herramietna lo cual veo bastant perro
+ 
+ 
+ > https://nmap.org/book/scan-methods-null-fin-xmas-scan.html
+ 
+ 
+ ## NMAP TCP SYN Ping scan
+ 
+ > nmap -sn -PS <target>
+ 
+ The -sn option tells Nmap to skip the port scanning phase and only perform host discovery. The -PS flag tells Nmap to use a TCP SYN ping scan. This type of ping scan works in the following way:
+ 
+ > https://hub.packtpub.com/discovering-network-hosts-with-tcp-syn-and-tcp-ack-ping-scans-in-nmaptutorial/#:~:text=Discovering%20network%20hosts%20with%20TCP%20SYN%20ping%20scans&text=This%20type%20of%20ping%20scan,a%20connection%20can%20be%20established.
+ 
+ Lo imporante es ver que existen otros TCP X ping scans dependiendo del paquete que se vaya a enviar por ejemplo esta el TCP ACK ping  ( -PA ) o el UDP ping scans ( -PU ).
+ 
+ 
+ 
+ 
+ 
  
