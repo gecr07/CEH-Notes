@@ -921,7 +921,12 @@ Un atacante puede configurar un clon de una red WiFi a la que la víctima se hay
  
  
  
+ ##  JXplorer
  
+ ![image](https://user-images.githubusercontent.com/63270579/202519237-39d5a4f2-b84e-4dad-9967-362036c54872.png)
+
+ 
+
  
  
  
