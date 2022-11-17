@@ -896,7 +896,28 @@ El Protocolo simple de administración de red o SNMP es un protocolo de la capa 
  ![image](https://user-images.githubusercontent.com/63270579/202509963-7e89c309-df2e-48d2-8603-84bd24bbacdb.png)
 
  
+ ## Krack
  
+ Los ataques de reinstalación de clave (KRACK) son un tipo de ciberataque que aprovecha una vulnerabilidad de WPA2 para robar los datos transmitidos a través de las redes. Estos ataques pueden provocar el robo de información confidencial como credenciales de acceso, números de tarjetas de crédito, chats privados y cualquier otro dato que la víctima transmita por la red. Los KRACK también pueden utilizarse para realizar ataques en ruta, sirviendo a la víctima un sitio web falso o inyectando código malicioso en un sitio legítimo.
+ 
+Una conexión WPA2 encriptada se inicia con una secuencia de protocolo de enlace de cuatro vías, aunque no se requiere la secuencia completa para una reconexión. Para que las reconexiones sean más rápidas, solo hay que retransmitir la tercera parte del protocolo de enlace de cuatro vías. Cuando un usuario se vuelve a conectar a una red WiFi conocida, la red WiFi le reenvía la tercera parte de la secuencia del protocolo de enlace; este reenvío se puede producir varias veces para garantizar que la conexión tenga éxito. Este paso repetido es la vulnerabilidad que puede ser explotada.
+
+Un atacante puede configurar un clon de una red WiFi a la que la víctima se haya conectado con anterioridad. La red clon maliciosa puede proporcionar acceso a Internet, así que la víctima no notará la diferencia. Cuando la víctima intenta volver a conectarse a la red, el atacante puede obligarla a unirse a la red clon en su lugar, posicionándose como un atacante en ruta. Durante el proceso de conexión, el atacante puede seguir reenviando la tercera parte del protocolo de enlace al dispositivo de la víctima. Cada vez que el usuario acepta la solicitud de conexión, se desencripta un pequeño fragmento de datos. El atacante puede sumar esta serie de comunicaciones para descifrar la clave de encriptación.
+ 
+ 
+ ## Bastion host
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/202514960-a3925d11-7173-4a1c-b569-9e8aa8888c5a.png)
+
+ ## Topological scan 
+ 
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/202515469-325869e9-00e3-4dfb-aaef-3b95098e1e3c.png)
+
+ 
+ ## SMTP port 25
+ 
+ VRFY Verifica si existe un mailbox. Para inciar una conexion usa HELO o EHLO. En la actualidad, los puertos SMTP más habituales son: 25, 465, 587 y 2525
  
  
  
