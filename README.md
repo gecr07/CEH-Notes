@@ -853,11 +853,16 @@ Traducción del inglés-Una técnica de elicitación es cualquiera de una serie 
  ![image](https://user-images.githubusercontent.com/63270579/202467391-f8cce351-6c24-4562-a98f-a84be35cec4d.png)
 
  
+ ## NMAP SYN Scan basic functionality
+ 
+One way to determine whether a TCP port is open is to send a SYN (session establishment) packet to the port. The target machine will respond with a SYN/ACK (session request acknowledgment) packet if the port is open, and RST (reset) if the port is closed. This is the basis of the previously discussed SYN scan.
  
  
+ ## NMAP Idle Scan ( -sl )
  
+  
  
- 
+ > https://nmap.org/book/idlescan.html
  
  
  
