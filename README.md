@@ -845,8 +845,13 @@ Traducción del inglés-Una técnica de elicitación es cualquiera de una serie 
  
  ![image](https://user-images.githubusercontent.com/63270579/202467071-be379203-3510-4f4f-9ec5-956d2bff3fdb.png)
 
+ ### Rangos
+ 
+ Se usan un rango para decir si es alta media o baja y es el siguiente puedes verlo en la magina del nist de NVD ( National Vulnerability Database )
  
  
+ ![image](https://user-images.githubusercontent.com/63270579/202467391-f8cce351-6c24-4562-a98f-a84be35cec4d.png)
+
  
  
  
