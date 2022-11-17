@@ -828,13 +828,23 @@ Performance Audit.
  ![image](https://user-images.githubusercontent.com/63270579/202337575-8ef6cfe3-5768-4261-93f4-3a6920a9f084.png)
 
  
+ ## ¿Qué hace el comando chroot?
+ 
+Un chroot es una operación que cambia el directorio raíz aparente para el proceso en ejecución actual y sus subsidiarios. Un programa que se ejecuta en este entorno modificado no puede acceder a los archivos y comandos fuera de ese árbol de directorios del entorno
  
  
+ ## Elicitation technique
+ 
+Traducción del inglés-Una técnica de elicitación es cualquiera de una serie de técnicas de recopilación de datos utilizadas en antropología, ciencias cognitivas, asesoramiento, educación, ingeniería del conocimiento, lingüística, gestión, filosofía, psicología u otros campos para recopilar conocimientos o información de las personas
  
  
+ ## CVSS Framework
+ 
+ Estandarizacion para ver que tan critica es una vulnerabilidad
  
  
- 
+ ![image](https://user-images.githubusercontent.com/63270579/202467071-be379203-3510-4f4f-9ec5-956d2bff3fdb.png)
+
  
  
  
