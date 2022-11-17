@@ -781,6 +781,12 @@ Podemos catalogar estas técnicas como "ataques pasivos" y "ataques activos". In
 La capa de enlace de datos de LTE está cifrada con AES-CTR, pero no está protegida su integridad, lo que permite a un atacante modificar los bits dentro de un paquete de datos cifrados. En los ataques LTE un atacante pretende emular una estación de comunicación real y así tomar el control de la comunicación. El ataque es muy peligroso pero difícil de explotar, ya que necesitamos hardware específico para ello, teniendo un alcance efectivo de casi 2 kilómetros
  
  
+ ## Logic bomb 
+ 
+ A logic bomb is a malicious program that is triggered when a logical condition is met, such as after a number of transactions have been processed, or on a specific date (also called a time bomb). Malware such as worms often contain logic bombs, behaving in one manner, then changing tactics on a specific date and time.
+ 
+ 
+ 
  
  
  
