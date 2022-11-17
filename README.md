@@ -865,6 +865,18 @@ One way to determine whether a TCP port is open is to send a SYN (session establ
  > https://nmap.org/book/idlescan.html
  
  
+ ## Evaluacion de vulnerabilidades basadas en inferencias vs basadas en arbol
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/202499920-2d99b53a-f141-492f-a78f-19da7e67f257.png)
+
+ ## SNMP Protocolo simple de administración de red Puertos: 161/UDP, 162/UDP 
+ 
+El Protocolo simple de administración de red o SNMP es un protocolo de la capa de aplicación que facilita el intercambio de información de administración entre dispositivos de red. Wikipedia actuamente la version mas reciente es las v3 
+ 
+## Telnet
+  
+ Utiliza el puerto TCP 23 para establecer comunicaciones.
+ 
  
  
  
