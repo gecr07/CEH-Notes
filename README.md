@@ -825,7 +825,7 @@ Performance Audit.
  Esta deprrecated apartir del 2023 y usaba 56 X 3 DES normal usaba 56 168. Pero solo realmente cubria 112 no entiendoe sta parte del todo
  
  
- ![image](https://user-images.githubusercontent.com/63270579/202337491-a5a03527-8701-4d99-bf25-5f176c1fe729.png)
+ ![image](https://user-images.githubusercontent.com/63270579/202337575-8ef6cfe3-5768-4261-93f4-3a6920a9f084.png)
 
  
  
