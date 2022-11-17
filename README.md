@@ -785,6 +785,71 @@ La capa de enlace de datos de LTE está cifrada con AES-CTR, pero no está prote
  
  A logic bomb is a malicious program that is triggered when a logical condition is met, such as after a number of transactions have been processed, or on a specific date (also called a time bomb). Malware such as worms often contain logic bombs, behaving in one manner, then changing tactics on a specific date and time.
  
+ ## Actors in the cloud 
+ 
+ NIST Cloud Computing reference architecture defines five major performers: 
+
+Cloud Provider
+Cloud Carrier
+Cloud Broker
+Cloud Auditor
+Cloud Consumer
+ 
+ 1. Cloud Service Providers: A group or object that delivers cloud services to cloud consumers or end-users. It offers various components of cloud computing. Cloud computing consumers purchase a growing variety of cloud services from cloud service providers. There are various categories of cloud-based services mentioned below: Iaas Saas Pass
+ 
+ 2. Cloud Carrier: The mediator who provides offers connectivity and transport of cloud services within cloud service providers and cloud consumers. It allows access to the services of the cloud through Internet networks, telecommunication, and other access devices. Network and telecom carriers or a transport agent can provide distribution. A consistent level of services is provided when cloud providers set up Service Level Agreements (SLA) with a cloud carrier. In general, Carrier may be required to offer dedicated and encrypted connections.
+ 
+ 3. Cloud Broker: An organization or a unit that manages the performance, use, and delivery of cloud services by enhancing specific capability and offers value-added services to cloud consumers. It combines and integrates various services into one or more new services. They provide service arbitrage which allows flexibility and opportunistic choices. There are major three services offered by a cloud broker: 
+
+Service Intermediation.
+Service Aggregation.
+Service Arbitrage
+ 
+ 4. Cloud Auditor: An entity that can conduct independent assessment of cloud services, security, performance, and information system operations of the cloud implementations. The services that are provided by Cloud Service Providers (CSP) can be evaluated by service auditors in terms of privacy impact, security control, and performance, etc. Cloud Auditor can make an assessment of the security controls in the information system to determine the extent to which the controls are implemented correctly, operating as planned and constructing the desired outcome with respect to meeting the security necessities for the system. There are three major roles of Cloud Auditor which are mentioned below: 
+
+Security Audit.
+Privacy Impact Audit.
+Performance Audit.
+ 
+ 5. Cloud Consumer: A cloud consumer is the end-user who browses or utilizes the services provided by Cloud Service Providers (CSP), sets up service contracts with the cloud provider. The cloud consumer pays peruse of the service provisioned. 
+ 
+ 
+ 
+ ## Google Dorks
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/202336390-2f6d6a7f-fdf6-413a-9467-60eaaa8616a4.png)
+
+ ## 3DES
+ 
+ 
+ Esta deprrecated apartir del 2023 y usaba 56 X 3 DES normal usaba 56 168.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
