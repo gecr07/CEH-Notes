@@ -877,8 +877,24 @@ El Protocolo simple de administración de red o SNMP es un protocolo de la capa 
   
  Utiliza el puerto TCP 23 para establecer comunicaciones.
  
+ ## Fast Fluxing
  
+ ![image](https://user-images.githubusercontent.com/63270579/202504764-2af76f70-d67e-4363-8585-f6a2aaaceed0.png)
+
+ ## WEP Wirless
  
+ ![image](https://user-images.githubusercontent.com/63270579/202505483-c738f21c-f048-4783-b9d6-c3ba3981ad01.png)
+
+ ## NBTSTAT 
+ 
+ Nbtstat es una herramienta de red que se utiliza para verificar las conexiones TCP/IP en ejecución. Nbtstat enumera todas las conexiones de red que se utilizan en el sistema operativo Windows. Esta herramienta está preinstalada en Windows, no necesita utilizar ningún software externo para ejecutar nbtstat. Es una herramienta efectiva para determinar todas las conexiones TCP/IP de un equipo Windows.
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/202509143-2a79934f-2ef5-4745-b778-084da2c4e0e6.png)
+
+ ## TAILGATING shoulder surfing Dumpterdiving
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/202509963-7e89c309-df2e-48d2-8603-84bd24bbacdb.png)
+
  
  
  
