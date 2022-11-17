@@ -819,10 +819,14 @@ Performance Audit.
  
  ![image](https://user-images.githubusercontent.com/63270579/202336390-2f6d6a7f-fdf6-413a-9467-60eaaa8616a4.png)
 
- ## 3DES
+ ## 3DES SEAL MAD5 SHA1 DIferencias
  
  
- Esta deprrecated apartir del 2023 y usaba 56 X 3 DES normal usaba 56 168.
+ Esta deprrecated apartir del 2023 y usaba 56 X 3 DES normal usaba 56 168. Pero solo realmente cubria 112 no entiendoe sta parte del todo
+ 
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/202337491-a5a03527-8701-4d99-bf25-5f176c1fe729.png)
+
  
  
  
