@@ -962,9 +962,23 @@ Puede emular la prespectiva de un atacante ya que pueden hacer escaneos desde de
  reduce falsos positivos 
  
  
+## Bluetooth
  
+ ## Bluesnarfing
  
+ Cuando el atacante accede a informacion de un dispositivo que no deberia contact list, text mesages, email messages and calendar.
  
+ ## Bluesmacking
+ 
+ Es como el ping de la muerte pero en bluetooth lo entiendo como un ataque de denegacion de servicio.
+ 
+ ## Bluebugging
+ 
+ Es un ataque donde se tienen un backdoor en el dispositivo de la victima.
+ 
+ ## Bluejacking 
+ 
+ Es el ataque en donde se mandan mensajes indeseados a la victima 
  
  
  
