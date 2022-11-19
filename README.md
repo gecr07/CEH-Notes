@@ -926,11 +926,40 @@ Un atacante puede configurar un clon de una red WiFi a la que la víctima se hay
  ![image](https://user-images.githubusercontent.com/63270579/202519237-39d5a4f2-b84e-4dad-9967-362036c54872.png)
 
  
+## MITC 
+ 
+ La aplicación que se sincroniza con el servicio en la nube utiliza un token de sincronización para obtener acceso a la cuenta correcta y a los datos. Los atacantes generalmente colocan cierto malware en los sistemas objetivo, que también se denominan conmutadores; esto se hace a través de ataques de ingeniería social, que son atacados con archivos adjuntos maliciosos en los correos electrónicos. Una vez que se inicia el malware, mueve el token de sincronización de la víctima potencial a la carpeta de sincronización de datos real. Luego reemplazaría ese token original en particular por el creado por los atacantes.
 
+ Cuando las aplicaciones objetivo se sincronizan con los sobres de sincronización de datos la próxima vez, el token único del objetivo se copia en las ubicaciones de la nube de los atacantes desde donde se puede descargar fácilmente y luego utilizar posteriormente por esos atacantes. Esto proporciona a los atacantes acceso a los datos basados ​​en la nube de las víctimas desde cualquier computadora; proporcionando así a los atacantes la capacidad de sincronizar archivos maliciosos y reemplaza los archivos de uso muy común en los que la víctima suele confiar. Se hace de manera de borrar la mayor parte de la evidencia de estos ataques.
  
  
+ ### ¿Qué es un Managed Service Provider?
+ 
+Un Managed Service Provider (MSP) es una empresa que proporciona y gestiona diversos servicios informáticos para sus clientes. Por lo general, los servicios gestionados se prestan y mantienen de forma remota a través de Internet, por lo que visitar a los clientes no suele estar en la agenda de un MSP. Los Managed Services Providers suelen ofrecer varios modelos de facturación diferentes: una cuota mensual por la prestación y el mantenimiento de los respectivos servicios MSP es tan común como una facturación basada en el tiempo. También es común que los proveedores cobren por el número de usuarios o dispositivos conectados.
  
  
+ ***Se previene con un CASB*** Agente!
+ 
+ 
+ ## Vulnerability Scaners
+ 
+ ### Vulnerability scaner Service based 
+ 
+Puede emular la prespectiva de un atacante ya que pueden hacer escaneos desde dentro y fuera de la red es administrado por terceros ya sabes un Saas
+ 
+ 
+ ### Vulnerability scaner product based 
+ 
+ Es administrado pro el staff cuesta trabajo tenerlo al dia y por lo regular solo puede hacer escaneos desde dentro.
+ 
+ ## Vulnerability tree based
+ 
+ Se tiene una lista para saber que test se le va correr al sistema target. El administrado selecciona el tipo de SO especific vulnerabilities.
+ 
+ ## Vulnerability inferced based
+ 
+ Este tiene una fase de obtencion gatehering durante esta fase se puede detectar el SO, Una vez que se tiene esa informacion ya corre los escaneos.
+ reduce falsos positivos 
  
  
  
