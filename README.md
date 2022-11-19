@@ -980,12 +980,39 @@ Puede emular la prespectiva de un atacante ya que pueden hacer escaneos desde de
  
  Es el ataque en donde se mandan mensajes indeseados a la victima 
  
+ # Ataques
+ 
+ ## Whailing 
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/202868246-70387e32-c7fb-4cfb-b46c-01200dbfae9c.png)
+
+ ## Wardriving
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/202868354-bb89b5ff-f4c2-4e34-9d51-7fddae6be71b.png)
+
+ 
+Se llama wardriving a la búsqueda de redes inalámbricas Wi-Fi desde un vehículo en movimiento. Implica usar un coche o camioneta y un ordenador equipado con Wi-Fi, como un portátil o una PDA, para detectar las redes. Esta actividad es parecida al uso de un escáner para radio. TJ Maxx sufrio un ataque que comenzo por aqui
+ 
+ > A hacker or hackers stole data from at least 45.7 million credit and debit cards of shoppers at off-price retailers including T.J. Maxx and Marshalls in a case believed to be the largest such breach of consumer information.
  
  
+ ## Ataque de abrevadero (Watering hole attack)
+ 
+El término ataque de abrevadero, en inglés watering hole attack, es una estrategia de ataque contra organizaciones en la que el atacante infecta con malware sitios web de terceros muy utilizados por los usuario de la organización
  
  
+ ##piggybacking o tailgating
+ 
+ En seguridad , piggybacking se refiere a cuando alguien acompaña a otra persona que está autorizada para ingresar a un área restringida; el término se aplica a las redes informáticas en este contexto.
  
  
+## Twofish
+ 
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/202869035-007b4925-64f2-42db-baf1-504a9744dce0.png)
+
+ ![image](https://user-images.githubusercontent.com/63270579/202869046-a3e947ee-5051-4abb-b2f1-7bdd07c4e4fa.png)
+
  
  
  
