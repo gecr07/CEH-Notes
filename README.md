@@ -1023,9 +1023,13 @@ El término ataque de abrevadero, en inglés watering hole attack, es una estrat
 ![image](https://user-images.githubusercontent.com/63270579/202972706-915b7f57-7254-4f33-a7c1-45485b650308.png)
 
 
+ ## diversion theft honey trap quid pro quo
  
+ ![image](https://user-images.githubusercontent.com/63270579/202974691-b14dc792-c837-49e9-896b-e27c138809bc.png)
+
  
- 
+ ![image](https://user-images.githubusercontent.com/63270579/202974893-e9876bc4-3cb0-4639-a266-d67b86e95c58.png)
+
  
  
  
