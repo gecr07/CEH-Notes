@@ -1031,6 +1031,10 @@ El término ataque de abrevadero, en inglés watering hole attack, es una estrat
  ![image](https://user-images.githubusercontent.com/63270579/202974893-e9876bc4-3cb0-4639-a266-d67b86e95c58.png)
 
  
+ ## SOAP-API vs XML-RCP
+ 
+ SOAP supports document-level transfer, whereas xml-rpc is more about values transfer, although it can transfer structures such as structs, lists, etc. xm-rpc is really about program to program language agnostic transfer. It primarily goes over http/https. SOAP messages can go over email as well.
+ 
  
  
  
