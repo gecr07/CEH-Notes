@@ -1014,7 +1014,15 @@ El término ataque de abrevadero, en inglés watering hole attack, es una estrat
  ![image](https://user-images.githubusercontent.com/63270579/202869046-a3e947ee-5051-4abb-b2f1-7bdd07c4e4fa.png)
 
  
+ ## Fixiation attack
  
+ ![image](https://user-images.githubusercontent.com/63270579/202972505-e728e202-fb87-4ffd-bc09-c553505da1ba.png)
+
+## Robotium 
+
+![image](https://user-images.githubusercontent.com/63270579/202972706-915b7f57-7254-4f33-a7c1-45485b650308.png)
+
+
  
  
  
