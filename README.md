@@ -1036,10 +1036,38 @@ El término ataque de abrevadero, en inglés watering hole attack, es una estrat
  SOAP supports document-level transfer, whereas xml-rpc is more about values transfer, although it can transfer structures such as structs, lists, etc. xm-rpc is really about program to program language agnostic transfer. It primarily goes over http/https. SOAP messages can go over email as well.
  
  
+ ## Critptografia firma digital ( inversa de cifrado )
+ 
+  Se genera una firma con la clave privada del firmante. La firma se verifica por medio de la clave pública correspondiente
  
  
+ ## Serpent
  
- 
+ Serpent es un algoritmo de cifrado simétrico de bloques que quedó finalista en el concurso Advanced Encryption Standard del NIST, tras Rijndael. Serpent fue diseñado por Ross Anderson, Eli Biham y Lars Knudsen.
+
+Como otros participantes del AES Serpent usa un tamaño de bloque de 128 bits y soporta tamaños de clave de 128, 192 y 256 bits de longitud. El cifrado consiste en 32 rondas de substitución-permutación operando sobre cuatro bloques de 32 bits. Cada ronda usa 32 copias de la misma S-Box de 4-bit a 4-bit. Serpent se diseñó para que las operaciones se realizasen en paralelo, usando 32 desplazamientos de 1 bit.
+
+Serpent adoptó una visión mucho más cauta que otros participantes al AES, optando por un mayor margen de seguridad. Los diseñadores afirmaron que 16 rondas serían suficientes para los métodos conocidos de ataque, pero especificaron 32 rondas para asegurarse de la robustez del algoritmo contra futuros descubrimientos en criptoanálisis.
+
+## Unicornscan Se ve bueno tendriamos que ver
+
+## mib_ii.mib
+
+The mib_ii.mib Management Information Base (MIB) file was originally created by Microsoft for RFC1213, which is for management of TCP/IP-based networking for a host system.
+
+The lmmib2.mib file contains the following SNMP object types:
+
+>  https://help.genesys.com/pureconnect/mergedprojects/wh_tr/mergedprojects/wh_tr_snmp/desktop/mib_ii_mib.htm
+
+## Slowloris (seguridad informática)
+
+Slowloris intenta mantener abiertas muchas conexiones con el servidor web de destino y mantenerlas abiertas el mayor tiempo posible. Lo logra abriendo conexiones al servidor web de destino y enviando una solicitud parcial. Periódicamente, enviará encabezados HTTP subsiguientes , agregando, pero nunca completando, la solicitud. Los servidores afectados mantendrán estas conexiones abiertas, llenando su conjunto máximo de conexiones simultáneas y, finalmente, denegando intentos de conexión adicionales de los clientes.
+
+## Key escrow Llaves en deposito o custodia
+
+La técnica criptográfica de claves bajo custodia, o también de depósito de claves, consiste en que las claves que se necesitan para descifrar los datos cifrados son depositadas en un sitio seguro
+
+
  
  
  
