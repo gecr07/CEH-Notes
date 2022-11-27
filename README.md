@@ -1067,7 +1067,13 @@ Slowloris intenta mantener abiertas muchas conexiones con el servidor web de des
 
 La técnica criptográfica de claves bajo custodia, o también de depósito de claves, consiste en que las claves que se necesitan para descifrar los datos cifrados son depositadas en un sitio seguro
 
+## Nmap scane ICMP ( para pasar fw -PP )
 
+![image](https://user-images.githubusercontent.com/63270579/204116518-0ad3bea7-1b1b-43fb-824e-81c7d7014605.png)
+
+## Ataque DROWN
+
+El ataque DROWN es una falla de seguridad de protocolos cruzados que afecta a servidores criptográficos que soportan la pila de protocolos TLS al utilizar su soporte para el protocolo inseguro SSLv2 y atacar así las conexiones que utilizan protocolos actualizados sin fallas de seguridad conocidas.1​2​ DROWN puede afectar todos los tipos de servidores que ofrezcan servicios encriptados con TLS y que todavía ofrezcan soporte a SSLv2 y compartan las credenciales de clave pública entre los dos protocolos.
  
  
  
