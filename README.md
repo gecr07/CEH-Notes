@@ -1100,5 +1100,12 @@ El ataque DROWN es una falla de seguridad de protocolos cruzados que afecta a se
  
  PCI DSS is a security standard, not a law. Compliance with it is mandated by the contracts that merchants sign with the card brands (Visa, MasterCard, etc.) and with the banks that actually handle their payment processing.
  
+ ## What is a watering hole attack in cybersecurity?
  
+Definition(s): In a watering hole attack, the attacker compromises a site likely to be visited by a particular target group, rather than attacking the target group directly.
+ 
+ ## CewL
+ 
+
+ CeWL es una aplicación de Ruby ​​que rastrea una determinada URL a una profundidad especificada, siguiendo opcionalmente enlaces externos, y devuelve una lista de palabras que pueden ser usadas para crackers de contraseñas como John the Ripper.
  
