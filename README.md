@@ -1077,6 +1077,10 @@ La técnica criptográfica de claves bajo custodia, o también de depósito de c
 El ataque DROWN es una falla de seguridad de protocolos cruzados que afecta a servidores criptográficos que soportan la pila de protocolos TLS al utilizar su soporte para el protocolo inseguro SSLv2 y atacar así las conexiones que utilizan protocolos actualizados sin fallas de seguridad conocidas.1​2​ DROWN puede afectar todos los tipos de servidores que ofrezcan servicios encriptados con TLS y que todavía ofrezcan soporte a SSLv2 y compartan las credenciales de clave pública entre los dos protocolos.
  
  
+ ## El ataque del monólogo interno: extracción de hash NTLM
+ 
+ > Aquí radica la motivación para el  ataque del Monólogo Interno . Esta técnica creativa  permite que un probador  obtenga credenciales  del sistema sin  tocar el  proceso LSASS  . El ataque aprovecha el  protocolo de  desafío-respuesta de  NetNTLM v1 . El protocolo NetNTLMv1  es inseguro debido a la forma en que calcula  el desafío - respuesta, lo que permite que un atacante recupere el hash NTLM  descifrando fácilmente la respuesta  .   Además, recuperar  el  hash NTLM  de un usuario es  casi sinónimo de recuperar  la  contraseña de texto sin formato  de un usuario,  ya que puede usarse  para una técnica de ataque  ' Pasar el hash ' o puede descifrarse para obtener la contraseña de texto sin formato.  
+ 
  
  
  
