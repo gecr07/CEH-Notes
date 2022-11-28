@@ -1049,6 +1049,7 @@ Como otros participantes del AES Serpent usa un tamaño de bloque de 128 bits y 
 
 Serpent adoptó una visión mucho más cauta que otros participantes al AES, optando por un mayor margen de seguridad. Los diseñadores afirmaron que 16 rondas serían suficientes para los métodos conocidos de ataque, pero especificaron 32 rondas para asegurarse de la robustez del algoritmo contra futuros descubrimientos en criptoanálisis.
 
+
 ## Unicornscan Se ve bueno tendriamos que ver
 
 ## mib_ii.mib
@@ -1074,9 +1075,6 @@ La técnica criptográfica de claves bajo custodia, o también de depósito de c
 ## Ataque DROWN
 
 El ataque DROWN es una falla de seguridad de protocolos cruzados que afecta a servidores criptográficos que soportan la pila de protocolos TLS al utilizar su soporte para el protocolo inseguro SSLv2 y atacar así las conexiones que utilizan protocolos actualizados sin fallas de seguridad conocidas.1​2​ DROWN puede afectar todos los tipos de servidores que ofrezcan servicios encriptados con TLS y que todavía ofrezcan soporte a SSLv2 y compartan las credenciales de clave pública entre los dos protocolos.
- 
- 
- 
  
  
  
