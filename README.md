@@ -1090,5 +1090,9 @@ El ataque DROWN es una falla de seguridad de protocolos cruzados que afecta a se
  
  ![image](https://user-images.githubusercontent.com/63270579/204350462-026a4273-3700-4955-9125-d9ba0cee25b8.png)
 
+ ## Spearphone
+ 
+ 
+     Los investigadores crearon una aplicación de Android que fue diseñada para registrar las reverberaciones del habla usando el acelerómetro y enviar los datos capturados a un servidor controlador de atacante como prueba de concepto. Los investigadores han demostrado que este ataque puede usarse con éxito para espiar llamadas telefónicas, escuchar notas de voz o multimedia, y espiar el uso de un asistente como Google Assistant o Bixby, como se muestra a continuación.
  
  
