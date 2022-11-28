@@ -1096,3 +1096,9 @@ El ataque DROWN es una falla de seguridad de protocolos cruzados que afecta a se
      Los investigadores crearon una aplicación de Android que fue diseñada para registrar las reverberaciones del habla usando el acelerómetro y enviar los datos capturados a un servidor controlador de atacante como prueba de concepto. Los investigadores han demostrado que este ataque puede usarse con éxito para espiar llamadas telefónicas, escuchar notas de voz o multimedia, y espiar el uso de un asistente como Google Assistant o Bixby, como se muestra a continuación.
  
  
+ ## PCI-DSS
+ 
+ PCI DSS is a security standard, not a law. Compliance with it is mandated by the contracts that merchants sign with the card brands (Visa, MasterCard, etc.) and with the banks that actually handle their payment processing.
+ 
+ 
+ 
