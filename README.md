@@ -1081,6 +1081,14 @@ El ataque DROWN es una falla de seguridad de protocolos cruzados que afecta a se
  
  > Aquí radica la motivación para el  ataque del Monólogo Interno . Esta técnica creativa  permite que un probador  obtenga credenciales  del sistema sin  tocar el  proceso LSASS  . El ataque aprovecha el  protocolo de  desafío-respuesta de  NetNTLM v1 . El protocolo NetNTLMv1  es inseguro debido a la forma en que calcula  el desafío - respuesta, lo que permite que un atacante recupere el hash NTLM  descifrando fácilmente la respuesta  .   Además, recuperar  el  hash NTLM  de un usuario es  casi sinónimo de recuperar  la  contraseña de texto sin formato  de un usuario,  ya que puede usarse  para una técnica de ataque  ' Pasar el hash ' o puede descifrarse para obtener la contraseña de texto sin formato.  
  
+ ## Container-Technology-Architecture-Tiers-Components-and-Lifecycle-Phases
  
+ ![image](https://user-images.githubusercontent.com/63270579/204350306-a6ef0e63-db22-4fcf-8c31-87eb5adcd326.png)
+
+ Falta la 5 la capa 5
+ 
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/204350462-026a4273-3700-4955-9125-d9ba0cee25b8.png)
+
  
  
