@@ -1125,3 +1125,30 @@ El siguiente comando recarga fstab sin necesidad de reiniciar el sistema.
 mount -a
 ```
 ## Mitre 
+
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/204554122-a799d224-78f0-408f-8a88-d368221259ef.png)
+
+ 
+ ## 3 way hand shake
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/204557010-62ff1aa9-695f-4b48-ade6-ee72e1c846f7.png)
+ 
+ ## proc file system in Linux
+ 
+ Proc file system (procfs) is virtual file system created on fly when system boots and is dissolved at time of system shut down.
+
+It contains useful information about the processes that are currently running, it is regarded as control and information center for kernel.
+ 
+ > ls -l /proc
+ 
+ > ps -aux
+ 
+ FUente: https://www.geeksforgeeks.org/proc-file-system-linux/
+ 
+ ## evilginx2
+ 
+ evilginx2 is a man-in-the-middle attack framework used for phishing login credentials along with session cookies, which in turn allows to bypass 2-factor authentication protection.
+
+This tool is a successor to Evilginx, released in 2017, which used a custom version of nginx HTTP server to provide man-in-the-middle functionality to act as a proxy between a browser and phished website. Present version is fully written in GO as a standalone application, which implements its own HTTP and DNS server, making it extremely easy to set up and use.
+ 
