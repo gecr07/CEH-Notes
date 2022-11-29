@@ -1109,3 +1109,18 @@ Definition(s): In a watering hole attack, the attacker compromises a site likely
 
  CeWL es una aplicación de Ruby ​​que rastrea una determinada URL a una profundidad especificada, siguiendo opcionalmente enlaces externos, y devuelve una lista de palabras que pueden ser usadas para crackers de contraseñas como John the Ripper.
  
+ 
+ ## Permisos en Linux Manera de nuemeros
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/204541166-c5668017-ca1e-41c2-91e1-bd48aba910e5.png)
+
+ ## El fichero fstab
+
+El archivo fstab se encuentra en: /etc, este archivo contiene las lineas donde se indica al sistema que dispositivos debe "montar", el lugar donde "montarlo" así como el sistema de archivos y las opciones necesarias.
+
+La principal diferencia entre mount y el fichero fstab es que este ultimo monta los dispositivos automáticamente en el arranque, mientras que el comando mount se usa para montar los dispositivos de forma manual.
+El siguiente comando recarga fstab sin necesidad de reiniciar el sistema.
+
+```
+mount -a
+```
