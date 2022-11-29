@@ -1124,3 +1124,4 @@ El siguiente comando recarga fstab sin necesidad de reiniciar el sistema.
 ```
 mount -a
 ```
+## Mitre 
