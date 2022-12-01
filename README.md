@@ -1085,10 +1085,8 @@ El ataque DROWN es una falla de seguridad de protocolos cruzados que afecta a se
  
  ![image](https://user-images.githubusercontent.com/63270579/204350306-a6ef0e63-db22-4fcf-8c31-87eb5adcd326.png)
 
- Falta la 5 la capa 5
- 
- 
- ![image](https://user-images.githubusercontent.com/63270579/204350462-026a4273-3700-4955-9125-d9ba0cee25b8.png)
+ ![image](https://user-images.githubusercontent.com/63270579/205104306-94ddf495-2253-42be-9492-d0f44c009a40.png)
+
 
  ## Spearphone
  
