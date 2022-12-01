@@ -1150,3 +1150,34 @@ It contains useful information about the processes that are currently running, i
 
 This tool is a successor to Evilginx, released in 2017, which used a custom version of nginx HTTP server to provide man-in-the-middle functionality to act as a proxy between a browser and phished website. Present version is fully written in GO as a standalone application, which implements its own HTTP and DNS server, making it extremely easy to set up and use.
  
+ ## PHP expliccion de Logs
+ 
+ ### php ini file 
+ 
+ Este es un archivo runtime  de confguracion que define como PHP 
+ 
+ > El fichero de configuración (php.ini) es leído al arrancar PHP. En las versiones en que PHP funciona como módulo de servidor, esto sucede únicamente cuando se inicia el servidor. En las versiones CGI y CLI, esto ocurre en cada ejecución.
+ 
+ ## logs_erros (directive )
+ 
+ Es una directiva dentro del php.ini que determina si el PHP error messages van a ser escritos a los log en el file system. Por defecto esta configurado en off.
+ Se usa para servidores ***productivos que no muestra errores a los usuarios lo que seria una falla de seguridad*** 
+ 
+ 
+## error_log ( directive )
+ 
+ Es una directiva dentro del php.ini determina el path y el nombre del log que es activado por el log_errors. por default esta OFF si se activa la directiva
+ logs_errors tu debes tambien especificar el path y nombre. Osea van juntas. log_errors ON y el error_log 
+ 
+ ## display_erros (directive )
+ 
+ Es la directiva que muestra los errores en el navegador por defecto esto esga cofigurado en On para servidores en produccion debe de estar en OFF
+ 
+ 
+ ## error_reportin  ( directiva )
+ 
+ 
+ especifica el nivel de detalle de los errores que se moestraran.
+ 
+ 
+ 
