@@ -1146,36 +1146,44 @@ This tool is a successor to Evilginx, released in 2017, which used a custom vers
 ![image](https://user-images.githubusercontent.com/63270579/195421584-62148b65-78ee-4bb0-8c53-d09f60a83bb3.png)
 
 
-### NMAP avoid IDs
+## NMAP avoid IDs
 
-nmap use the -D option to spoofed IP address
+### Scan spoof Ips (-D)
 
-## Script enip-info
+```
+nmap -D IP,IP2,IP3
+
+```
+
+>The goal of both options is similar, however -D allows you to specify a number of hosts. Therefore, according to the man page the syntax is actually slightly different than outlined by you, ie -D decoy1[,decoy2][,ME][,...]. This allows you to obfuscate which of the addresses that were passed is the actual source host (denoted by ME here) because the IDS or target host will see a number of portscans. You, on the "ME" host, will be able to retrieve the results without the target knowing which host was actually scanning.
+
+### Scan Script enip-info
 
 Para asacar informacion de dispositivos 
 
 nmap --script enip-info -sU -p 44818 <host>
  
- 
  > This NSE script is used to send a EtherNet/IP packet to a remote device that has TCP 44818 open. The script will send a Request Identity Packet and once a response is received, it validates that it was a proper response to the command that was sent, and then will parse out the data. Information that is parsed includes Device Type, Vendor ID, Product name, Serial Number, Product code, Revision Number, status, state, as well as the Device IP.
  
  > https://nmap.org/nsedoc/scripts/enip-info.html
 
- ## TCP Maimon Scan (-sM)
+ ## Scan TCP Maimon Scan (-sM)
  
  This technique is exactly the same as NULL, FIN, and Xmas scan, except that the probe is FIN/ACK. According to RFC 793 (TCP), a RST packet should be generated in response to such a probe whether the port is open or closed. 
  
  > https://nmap.org/book/scan-methods-maimon-scan.html
 
  
- ## TCP FIN, NULL, and Xmas Scans (-sF, -sN, -sX)
+ ## Scan TCP FIN, NULL, and Xmas Scans (-sF, -sN, -sX)
  
  When scanning systems compliant with this RFC text, any packet not containing SYN, RST, or ACK bits will result in a returned RST if the port is closed and no response at all if the port is open. As long as none of those three bits are included, any combination of the other three (FIN, PSH, and URG) are OK. Nmap exploits this with three scan types:
  
 ![image](https://user-images.githubusercontent.com/63270579/202260818-e21184d2-3763-48a8-a4f6-f86dbd98b486.png)
 
 
- ### NMAP TCP SYN Ping scan
+ ## NMAP TCP SYN Ping scan
+ 
+ ### Scan Ping SYN (-PS) 
  
  > nmap -sn -PS <target>
  
@@ -1185,11 +1193,17 @@ nmap --script enip-info -sU -p 44818 <host>
  
  Lo imporante es ver que existen otros TCP X ping scans dependiendo del paquete que se vaya a enviar por ejemplo esta el TCP ACK ping  ( -PA ) o el UDP ping scans ( -PU ).
  
+ ### Scan Ping ARP (-PA)
+ 
+ ```
+ nmap -PA
+ ```
+ 
  Usando ARP tambien se puede hacer un host discovery ( -PA ).
 
  > https://nmap.org/book/scan-methods-null-fin-xmas-scan.html
 
- ### Nmap -g and --source-port (they are equivalent) for Source Port Manipulation
+ ### Scan Nmap  Source Port Manipulation (-g and --source-port ) (they are equivalent) 
  
  >  nmap -sS -v -v -Pn -g 88 172.25.0.14
  
@@ -1199,18 +1213,27 @@ nmap --script enip-info -sU -p 44818 <host>
  > https://nmap.org/book/firewall-subversion.html#defeating-firewalls-sourceport88
 
  
- ### NMAP SYN Scan basic functionality
+ ### Scan NMAP SYN Scan basic functionality (-sS)
+ 
+ ```
+ nmap -sS IP
+ ```
  
 One way to determine whether a TCP port is open is to send a SYN (session establishment) packet to the port. The target machine will respond with a SYN/ACK (session request acknowledgment) packet if the port is open, and RST (reset) if the port is closed. This is the basis of the previously discussed SYN scan.
  
  
- ### NMAP Idle Scan ( -sl )
+ ### Scan NMAP Idle Scan ( -sl )
  
+ ```
+ nmap -Pn -p- -sI kiosk.adobe.com www.riaa.com
+ ```
+ 
+ > While idle scanning is more complex than any of the techniques discussed so far, you don't need to be a TCP/IP expert to understand it.
   
  
  > https://nmap.org/book/idlescan.html
 
- ### Nmap scane ICMP ( para pasar fw -PP )
+ ### Scan Nmap ICMP ( para pasar fw -PP )
 
 ![image](https://user-images.githubusercontent.com/63270579/204116518-0ad3bea7-1b1b-43fb-824e-81c7d7014605.png)
  
