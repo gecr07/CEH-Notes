@@ -1382,4 +1382,23 @@ EJEMPLOS:
  ![image](https://user-images.githubusercontent.com/63270579/205374998-6c69175c-d6e6-44ca-ac57-a6680b9c9a8b.png)
 
  
+ ## Tecnologias de comunicacion 
  
+ 
+ ### NB-IoT
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/205395324-906fa078-5b4b-4863-a33f-74a51dd050d7.png)
+
+ ### LPWAN
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/205395764-d3218366-5169-4142-94c9-c2ce0dd43e8b.png)
+
+ 
+ ### MQTT
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/205395845-3178a75b-c9a4-413c-b4ad-2f28f68e5d8a.png)
+
+ ### ZigBee
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/205395911-05439f29-e12b-4ac1-9f9f-928b5134ce0b.png)
+
