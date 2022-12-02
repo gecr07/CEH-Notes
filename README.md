@@ -932,6 +932,10 @@ El término ataque de abrevadero, en inglés watering hole attack, es una estrat
  With a birthday attack, it is possible to find a collision of a hash function. Osea que se podria encontrar un password x que de el mismo hash que la contraseña que no sabemos lo cual permitiria hacernos con la cuenta y ahorraria el tiempo que nos costaria un brute force atack a un hash.
  
  
+## Baiting
+
+Es el ataque de la memoria USB que la dejas en un lugar para que alguien la agarre se infecte como si se hubiera encontrado una USB.
+ 
 ## Twofish
  
  
