@@ -1179,5 +1179,22 @@ This tool is a successor to Evilginx, released in 2017, which used a custom vers
  
  especifica el nivel de detalle de los errores que se moestraran.
  
+ ## Tipos de nube
+ 
+ ### Hybrida
+ 
+ Es cuando una organizacion extiende su infraestructura on premises a una a la nube y hay inter comunicacion entre ambas partes ( es como los ejemplos de AWs o Azure)
+ 
+ ### Public
+ 
+ Donde multiples organizaciones pueden compartir los recursos de la nube. es como aws azure etc
+ 
+### Private 
+ 
+ La nube privada son recursos solamente para una organizacion que no se comparten.
+ 
+ ### Comunity 
+ 
+ Es un esquema que se comparte entre publica y privada recursos.
  
  
