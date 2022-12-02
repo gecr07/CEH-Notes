@@ -373,30 +373,6 @@ A TCP session initiates using a three-way handshake mechanism:  To launch a T
 
 ![image](https://user-images.githubusercontent.com/63270579/195418932-83137ca8-24df-406f-8d4a-5d98d682d213.png)
 
-### Host Discovery Techniques
-
-![image](https://user-images.githubusercontent.com/63270579/195419204-b6156710-0e70-4442-9dd0-000f28454b46.png)
-
-#### ARP Scan is by default in nmap
-
-![image](https://user-images.githubusercontent.com/63270579/195419933-66f1f5e3-0d14-4e1f-a045-d14dbba59f1d.png)
-
-
-### UDP ping Scan 
-
-![image](https://user-images.githubusercontent.com/63270579/195420231-16469310-f626-4020-95f0-3f57c34eb9fb.png)
-
-### Ping Sweep Tool
-
-
-![image](https://user-images.githubusercontent.com/63270579/195420692-da0b1e0c-58a7-409f-827d-239816a09825.png)
-
-
-![image](https://user-images.githubusercontent.com/63270579/195421246-1d4a21a4-f1ae-4722-b52b-cbe98ee05452.png)
-
-### Port Scanning Techniques
-
-![image](https://user-images.githubusercontent.com/63270579/195421584-62148b65-78ee-4bb0-8c53-d09f60a83bb3.png)
 
 
 ## Stream Control Transmission Protocol SCTP
@@ -609,9 +585,7 @@ EHLO is a command to start a conversation with the protocol
 
 Existen tres versiones de SNMP: SNMP versión 1 (SNMPv1), SNMP versión 2 (SNMPv2) y SNMP versión 3 (SNMPv3) y por logica la ultima es la mas segura.
 
-## NMAP avoid IDs
 
-nmap use the -D option to spoofed IP address
 
 ## ¿Qué es un ataque de whaling?
 
@@ -640,16 +614,7 @@ Qué es un RIR? Regional Internet Registry (RIR) es una organización que superv
 
 ![image](https://user-images.githubusercontent.com/63270579/202231045-54567763-e775-4a73-a19d-671d6ba2670f.png)
 
-## Script enip-info
 
-Para asacar informacion de dispositivos 
-
-nmap --script enip-info -sU -p 44818 <host>
- 
- 
- > This NSE script is used to send a EtherNet/IP packet to a remote device that has TCP 44818 open. The script will send a Request Identity Packet and once a response is received, it validates that it was a proper response to the command that was sent, and then will parse out the data. Information that is parsed includes Device Type, Vendor ID, Product name, Serial Number, Product code, Revision Number, status, state, as well as the Device IP.
- 
- > https://nmap.org/nsedoc/scripts/enip-info.html
  
  ## WPA3 y DragonBlood
  
@@ -663,38 +628,13 @@ nmap --script enip-info -sU -p 44818 <host>
  
  Dragonblood es el ataque por el cual analizan el handshake de DragonFly. Mas bien una serie de ataques hacia WPA3
  
- ## TCP Maimon Scan (-sM)
  
- This technique is exactly the same as NULL, FIN, and Xmas scan, except that the probe is FIN/ACK. According to RFC 793 (TCP), a RST packet should be generated in response to such a probe whether the port is open or closed. 
- 
- > https://nmap.org/book/scan-methods-maimon-scan.html
-
- 
- ## TCP FIN, NULL, and Xmas Scans (-sF, -sN, -sX)
- 
- When scanning systems compliant with this RFC text, any packet not containing SYN, RST, or ACK bits will result in a returned RST if the port is closed and no response at all if the port is open. As long as none of those three bits are included, any combination of the other three (FIN, PSH, and URG) are OK. Nmap exploits this with three scan types:
- 
-![image](https://user-images.githubusercontent.com/63270579/202260818-e21184d2-3763-48a8-a4f6-f86dbd98b486.png)
 
  ## Zoominfo
  
  Informaciond e la empresa como lista de directivos y subordinados para esto siver esta herramietna lo cual veo bastant perro
  
  
- > https://nmap.org/book/scan-methods-null-fin-xmas-scan.html
- 
- 
- ## NMAP TCP SYN Ping scan
- 
- > nmap -sn -PS <target>
- 
- The -sn option tells Nmap to skip the port scanning phase and only perform host discovery. The -PS flag tells Nmap to use a TCP SYN ping scan. This type of ping scan works in the following way:
- 
- > https://hub.packtpub.com/discovering-network-hosts-with-tcp-syn-and-tcp-ack-ping-scans-in-nmaptutorial/#:~:text=Discovering%20network%20hosts%20with%20TCP%20SYN%20ping%20scans&text=This%20type%20of%20ping%20scan,a%20connection%20can%20be%20established.
- 
- Lo imporante es ver que existen otros TCP X ping scans dependiendo del paquete que se vaya a enviar por ejemplo esta el TCP ACK ping  ( -PA ) o el UDP ping scans ( -PU ).
- 
- Usando ARP tambien se puede hacer un host discovery ( -PA ).
  
  ## DNS Amplification 
  
@@ -757,14 +697,7 @@ Un directorio es un conjunto de objetos con atributos organizados en una manera 
  
  ![image](https://user-images.githubusercontent.com/63270579/202318807-0ec2392d-e23c-4a77-bf29-ea1abc31c575.png)
 
- ## Nmap -g and --source-port (they are equivalent) for Source Port Manipulation
  
- >  nmap -sS -v -v -Pn -g 88 172.25.0.14
- 
- Nmap offers the -g and --source-port options (they are equivalent) to exploit these weaknesses. Simply provide a port number, and Nmap will send packets from that port where possible. Nmap must use different port numbers for certain OS detection tests to work properly. Most TCP scans, including SYN scan, support the option completely, as does UDP scan. In May 2004, JJ Gray posted example Nmap scans to Bugtraq that demonstrate exploitation of the Windows IPsec source port 88 bug against one of his clients. A normal scan, followed by a -g 88 scan are shown in Example 10.7. Some output has been removed for brevity and clarity.
- 
- 
- > https://nmap.org/book/firewall-subversion.html#defeating-firewalls-sourceport88
  
  ## ALTEr Attack
  
@@ -852,17 +785,6 @@ Traducción del inglés-Una técnica de elicitación es cualquiera de una serie 
  
  ![image](https://user-images.githubusercontent.com/63270579/202467391-f8cce351-6c24-4562-a98f-a84be35cec4d.png)
 
- 
- ## NMAP SYN Scan basic functionality
- 
-One way to determine whether a TCP port is open is to send a SYN (session establishment) packet to the port. The target machine will respond with a SYN/ACK (session request acknowledgment) packet if the port is open, and RST (reset) if the port is closed. This is the basis of the previously discussed SYN scan.
- 
- 
- ## NMAP Idle Scan ( -sl )
- 
-  
- 
- > https://nmap.org/book/idlescan.html
  
  
  ## Evaluacion de vulnerabilidades basadas en inferencias vs basadas en arbol
@@ -1068,9 +990,7 @@ Slowloris intenta mantener abiertas muchas conexiones con el servidor web de des
 
 La técnica criptográfica de claves bajo custodia, o también de depósito de claves, consiste en que las claves que se necesitan para descifrar los datos cifrados son depositadas en un sitio seguro
 
-## Nmap scane ICMP ( para pasar fw -PP )
 
-![image](https://user-images.githubusercontent.com/63270579/204116518-0ad3bea7-1b1b-43fb-824e-81c7d7014605.png)
 
 ## Ataque DROWN
 
@@ -1197,4 +1117,100 @@ This tool is a successor to Evilginx, released in 2017, which used a custom vers
  
  Es un esquema que se comparte entre publica y privada recursos.
  
+ 
+ ## NMAP
+
+### Host Discovery Techniques
+
+![image](https://user-images.githubusercontent.com/63270579/195419204-b6156710-0e70-4442-9dd0-000f28454b46.png)
+
+#### ARP Scan is by default in nmap
+
+![image](https://user-images.githubusercontent.com/63270579/195419933-66f1f5e3-0d14-4e1f-a045-d14dbba59f1d.png)
+
+
+### UDP ping Scan 
+
+![image](https://user-images.githubusercontent.com/63270579/195420231-16469310-f626-4020-95f0-3f57c34eb9fb.png)
+
+### Ping Sweep Tool
+
+
+![image](https://user-images.githubusercontent.com/63270579/195420692-da0b1e0c-58a7-409f-827d-239816a09825.png)
+
+
+![image](https://user-images.githubusercontent.com/63270579/195421246-1d4a21a4-f1ae-4722-b52b-cbe98ee05452.png)
+
+### Port Scanning Techniques
+
+![image](https://user-images.githubusercontent.com/63270579/195421584-62148b65-78ee-4bb0-8c53-d09f60a83bb3.png)
+
+
+### NMAP avoid IDs
+
+nmap use the -D option to spoofed IP address
+
+## Script enip-info
+
+Para asacar informacion de dispositivos 
+
+nmap --script enip-info -sU -p 44818 <host>
+ 
+ 
+ > This NSE script is used to send a EtherNet/IP packet to a remote device that has TCP 44818 open. The script will send a Request Identity Packet and once a response is received, it validates that it was a proper response to the command that was sent, and then will parse out the data. Information that is parsed includes Device Type, Vendor ID, Product name, Serial Number, Product code, Revision Number, status, state, as well as the Device IP.
+ 
+ > https://nmap.org/nsedoc/scripts/enip-info.html
+
+ ## TCP Maimon Scan (-sM)
+ 
+ This technique is exactly the same as NULL, FIN, and Xmas scan, except that the probe is FIN/ACK. According to RFC 793 (TCP), a RST packet should be generated in response to such a probe whether the port is open or closed. 
+ 
+ > https://nmap.org/book/scan-methods-maimon-scan.html
+
+ 
+ ## TCP FIN, NULL, and Xmas Scans (-sF, -sN, -sX)
+ 
+ When scanning systems compliant with this RFC text, any packet not containing SYN, RST, or ACK bits will result in a returned RST if the port is closed and no response at all if the port is open. As long as none of those three bits are included, any combination of the other three (FIN, PSH, and URG) are OK. Nmap exploits this with three scan types:
+ 
+![image](https://user-images.githubusercontent.com/63270579/202260818-e21184d2-3763-48a8-a4f6-f86dbd98b486.png)
+
+
+ ### NMAP TCP SYN Ping scan
+ 
+ > nmap -sn -PS <target>
+ 
+ The -sn option tells Nmap to skip the port scanning phase and only perform host discovery. The -PS flag tells Nmap to use a TCP SYN ping scan. This type of ping scan works in the following way:
+ 
+ > https://hub.packtpub.com/discovering-network-hosts-with-tcp-syn-and-tcp-ack-ping-scans-in-nmaptutorial/#:~:text=Discovering%20network%20hosts%20with%20TCP%20SYN%20ping%20scans&text=This%20type%20of%20ping%20scan,a%20connection%20can%20be%20established.
+ 
+ Lo imporante es ver que existen otros TCP X ping scans dependiendo del paquete que se vaya a enviar por ejemplo esta el TCP ACK ping  ( -PA ) o el UDP ping scans ( -PU ).
+ 
+ Usando ARP tambien se puede hacer un host discovery ( -PA ).
+
+ > https://nmap.org/book/scan-methods-null-fin-xmas-scan.html
+
+ ### Nmap -g and --source-port (they are equivalent) for Source Port Manipulation
+ 
+ >  nmap -sS -v -v -Pn -g 88 172.25.0.14
+ 
+ Nmap offers the -g and --source-port options (they are equivalent) to exploit these weaknesses. Simply provide a port number, and Nmap will send packets from that port where possible. Nmap must use different port numbers for certain OS detection tests to work properly. Most TCP scans, including SYN scan, support the option completely, as does UDP scan. In May 2004, JJ Gray posted example Nmap scans to Bugtraq that demonstrate exploitation of the Windows IPsec source port 88 bug against one of his clients. A normal scan, followed by a -g 88 scan are shown in Example 10.7. Some output has been removed for brevity and clarity.
+ 
+ 
+ > https://nmap.org/book/firewall-subversion.html#defeating-firewalls-sourceport88
+
+ 
+ ### NMAP SYN Scan basic functionality
+ 
+One way to determine whether a TCP port is open is to send a SYN (session establishment) packet to the port. The target machine will respond with a SYN/ACK (session request acknowledgment) packet if the port is open, and RST (reset) if the port is closed. This is the basis of the previously discussed SYN scan.
+ 
+ 
+ ### NMAP Idle Scan ( -sl )
+ 
+  
+ 
+ > https://nmap.org/book/idlescan.html
+
+ ### Nmap scane ICMP ( para pasar fw -PP )
+
+![image](https://user-images.githubusercontent.com/63270579/204116518-0ad3bea7-1b1b-43fb-824e-81c7d7014605.png)
  
