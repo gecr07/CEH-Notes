@@ -927,6 +927,10 @@ El término ataque de abrevadero, en inglés watering hole attack, es una estrat
  
  En seguridad , piggybacking se refiere a cuando alguien acompaña a otra persona que está autorizada para ingresar a un área restringida; el término se aplica a las redes informáticas en este contexto.
  
+ ## Birthday Attack 
+ 
+ With a birthday attack, it is possible to find a collision of a hash function. Osea que se podria encontrar un password x que de el mismo hash que la contraseña que no sabemos lo cual permitiria hacernos con la cuenta y ahorraria el tiempo que nos costaria un brute force atack a un hash.
+ 
  
 ## Twofish
  
