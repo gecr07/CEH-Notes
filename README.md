@@ -1469,7 +1469,7 @@ Incia la conversacion de un servidor SMTP
  
  ## MIB_II.MIB
  
- Contiene informacion de configuracion del protocolo SNMP en si misma
+ Contiene informacion de configuracion del protocolo SNMP en si misma y el protocolo TCP/IP
  
  ## DHCP.MIB
  
@@ -1490,7 +1490,12 @@ Incia la conversacion de un servidor SMTP
  Tiene informacion de los host pero mas cmo el hardware como tamaño de discos duros y cosas asi users time date processers memory.
  
  
+ ## grep -rL "termino" *.extencion_de_archivo
  
+ El parametro menos r nos inidica que hay que grep va a mirar dentro de todos los arhcivos de la extencion que le digamosy la L nos indica que nos moestrara
+ que archivos no tienen el termino que pusimos osea que no lo contienen.
+ 
+ -L search for files that do not contain the term.
  
  
  
