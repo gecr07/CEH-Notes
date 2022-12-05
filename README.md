@@ -1430,3 +1430,33 @@ EJEMPLOS:
  ### Spaning Tree Protocolo Attack STP
  
  ![image](https://user-images.githubusercontent.com/63270579/205399539-f0fd9831-ef40-42d2-860f-b13594b4b5d5.png)
+ 
+ # SMTP
+ 
+ ## VRFY
+ 
+ Este comanod verifica si existe un buzon para x usuario ejemplo:
+ 
+ ```
+ VRFY adams
+ 250 Jonh Adams <jonhadams@something.com>
+ ```
+ 
+ ## EXPN
+ 
+ Nos muestra los destinatarios de una lista de correos 
+ 
+ ## HELO
+ 
+Incia la conversacion de un servidor SMTP
+ 
+ 
+ ## MAIL FROM correo
+ 
+ indica el remitente osea quien envia 
+ 
+ ## RCPT 
+ 
+ Indica el receptor de un mensaje
+ 
+ 
