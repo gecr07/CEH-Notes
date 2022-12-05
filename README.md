@@ -1459,4 +1459,44 @@ Incia la conversacion de un servidor SMTP
  
  Indica el receptor de un mensaje
  
+ # Protoclo SNMP Puertos	161/UDP, 162/UDP (Trap)
+ 
+ Es un protocolo de administracion esta en la vercion 3 la version mas actual pero dicen que no ha sido aceptado en la industria
+ 
+ ## MIB Managment Informatiopn Base
+ 
+ Es una base que contiene informacion de los host por ejemplo interfaces esto se logra atravez de un agente que recopila l ainformacion de los host es una base de datos jerarquica.
+ 
+ ## MIB_II.MIB
+ 
+ Contiene informacion de configuracion del protocolo SNMP en si misma
+ 
+ ## DHCP.MIB
+ 
+ Contiene informacion del trafico entre los host y del protocolo DHCP
+ 
+ 
+ ## LMMIB2.MIB
+ 
+ Esta guarda informacion sobre procesos y servicios que corren en los host. El sistema operativo que corren 
+ 
+ 
+ ## WINS.MIB
+ 
+ Guarda los nombres de las pc tiene que ver con netbios y WINS.
+ 
+ ## HOSTMIB.MIB
+ 
+ Tiene informacion de los host pero mas cmo el hardware como tamaño de discos duros y cosas asi users time date processers memory.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
