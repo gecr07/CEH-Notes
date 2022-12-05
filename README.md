@@ -1411,8 +1411,7 @@ EJEMPLOS:
  
  ![image](https://user-images.githubusercontent.com/63270579/205396981-edda35f4-79f9-4c4d-b784-8261b47b72aa.png)
 
- 
- ### Severity Ratings ( Resumen )
+  ### Severity Ratings ( Resumen )
  
  ![image](https://user-images.githubusercontent.com/63270579/205397332-2c8adb9a-8abc-4eae-a178-ac2cb6cd750a.png)
 
@@ -1431,5 +1430,3 @@ EJEMPLOS:
  ### Spaning Tree Protocolo Attack STP
  
  ![image](https://user-images.githubusercontent.com/63270579/205399539-f0fd9831-ef40-42d2-860f-b13594b4b5d5.png)
-
- 
