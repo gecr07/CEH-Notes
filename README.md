@@ -628,6 +628,17 @@ Qué es un RIR? Regional Internet Registry (RIR) es una organización que superv
  
  Dragonblood es el ataque por el cual analizan el handshake de DragonFly. Mas bien una serie de ataques hacia WPA3
  
+ ## SAE Key interchange new algorithm
+ 
+ 
+> WPA3 certification is introduced by Wi-Fi Alliance in 2018 as a successor to WPA2. It aims to alleviate the vulnerabilities in WPA2 and provide more secure wireless networks.  It introduces new concepts like Simultaneous Authentication of Equals (SAE), dragonfly key exchange, NIST elliptical curve cryptography etc. To make it easier to understand WPA3 as a whole, I will be discussing each component individually in detail. WPA3 replaces Pre-Shared Key with Simultaneous Authentication of Equals (SAE) to derive the Pairwise Master Key (PMK) which enables secure communication even when the password is compromised. To understand how this is achieved, we need to understand how Diffie-Hellman key exchange and elliptical curve cryptography work in conjunction with Dragon fly key exchange.
+ 
+ 
+ ## PMF Protected Management Frames
+
+ 
+ Además, WPA3 admite marcos de administración protegidos (PMF), lo que hace que sea imposible lanzar ataques de desautenticación. WPA2 ya admite esto, por lo que no es una novedad de WPA3. Sin embargo, con WPA, los PMF se incluyen desde el principio en el programa de certificación.
+ 
  
 
  ## Zoominfo
