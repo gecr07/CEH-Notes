@@ -1517,6 +1517,24 @@ Incia la conversacion de un servidor SMTP
  
  Son un ataque en donde se sutituye numeros y caracteres en palabras para descubir una contraseña como por ejemplo hacking a h4cking
  
+ ## Puertos comunes
+ TCP
+ 
+ 21 ftp
+ 22 ssh
+ 23 telnet
+ 25 smtp
+ 53 dns
+ 80 http
+ 88 kerberos
+ 110 pop3
+ 161/162 SNMP
+ 389 LDAP
+ 443 https
+ 445 SMB
+ 
+ 3389 RDP
+ 636 LDAPS
  
  
  
