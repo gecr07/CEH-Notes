@@ -1147,7 +1147,7 @@ This tool is a successor to Evilginx, released in 2017, which used a custom vers
 
 ![image](https://user-images.githubusercontent.com/63270579/195419204-b6156710-0e70-4442-9dd0-000f28454b46.png)
 
-#### ARP Scan is by default in nmap
+#### ARP Scan is by default in nmap (-PR por si lo quieres usar concientemente )
 
 ![image](https://user-images.githubusercontent.com/63270579/195419933-66f1f5e3-0d14-4e1f-a045-d14dbba59f1d.png)
 
@@ -1615,3 +1615,29 @@ En conclucion se acaba las ips y se convierte en el servidor dhcp el atacante pe
  > Un paso por delante de las puertas de enlace a nivel de circuito, los cortafuegos de inspección de estado y la verificación y el seguimiento de las conexiones establecidas también realizan la inspección de paquetes para proporcionar una seguridad mejor y más completa. Funcionan creando una tabla de estado con IP de origen, IP de destino, puerto de origen y puerto de destino una vez que se establece una conexión. Crean sus propias reglas dinámicamente para permitir el tráfico de red entrante esperado en lugar de depender de un conjunto de reglas codificadas basadas en esta información. Dejan caer convenientemente paquetes de datos que no pertenecen a una conexión activa verificada.
 
 > Los cortafuegos de inspección de estado verifican las conexiones legítimas y las direcciones IP de origen y destino para determinar qué paquetes de datos pueden pasar. Aunque estas comprobaciones adicionales proporcionan seguridad avanzada, consumen una gran cantidad de recursos del sistema y pueden ralentizar considerablemente el tráfico. Por lo tanto, son propensos a DDoS (ataques distribuidos de denegación de servicio).
+ 
+ ## Trusted Platform Module
+ 
+ ( TPM , también conocido como ISO/IEC 11889 ) es un estándar internacional para un criptoprocesador seguro , un microcontrolador dedicado diseñado para proteger el hardware a través de claves criptográficas integradas. El término también puede referirse a un chip conforme al estándar.
+
+TPM se utiliza para la administración de derechos digitales (DRM) , Windows Defender , inicio de sesión de dominio de Windows, protección y aplicación de licencias de software , [1] y prevención de trampas en juegos en línea . [2]
+
+Uno de los requisitos del sistema de Windows 11 es TPM 2.0. Microsoft ha declarado que esto es para ayudar a aumentar la seguridad contra ataques de firmware y ransomware
+ 
+ ## an endorsement key
+ 
+ Cuando se manofactura se crea una clave de respando que consta de una llave publica y privada.
+ 
+ ## Docker
+ 
+ ### Docker client and docker cli
+ 
+ The Docker client can reside on the same host as the daemon or connect to a daemon on a remote host. A docker client can communicate with more than one daemon. The Docker client provides a command line interface (CLI) that allows you to issue build, run, and stop application commands to a Docker daemon.
+ 
+### Docker daemon ( dockerd)
+ 
+ The Docker daemon ( dockerd ) listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes. A daemon can also communicate with other daemons to manage Docker services.
+ 
+ ## HEAD
+ 
+ Usualmente para hacer footprint se utilizan esta cabecera que regresa header information of the web server.
