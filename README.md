@@ -1565,7 +1565,7 @@ En conclucion se acaba las ips y se convierte en el servidor dhcp el atacante pe
  
  Son los que dan los servicios de la nube ejemplo:
  
-Popular examples of cloud service providers include:
+**Popular examples of cloud service providers include:**
  
 -Amazon Web Services (AWS)
  
@@ -1583,5 +1583,17 @@ Popular examples of cloud service providers include:
  
 -SAP.
  
+## Cloud carrier
  
+ En la computación en la nube, una nube de operador es una clase de nube que integra redes de área amplia y otros atributos de las redes de nivel de operador de los proveedores de servicios de comunicaciones para permitir el despliegue de aplicaciones altamente complejas en la nube.
+ 
+ Examples of popular telecom carriers include AT&T, Sprint (acquired by T-Mobile) and Verizon. Carrier clouds integrate some of the components and features .
+ Quiza como un tipo telcel
+ 
+ ## Cloud Broker
+ 
+ Cloud Broker es una entidad que administra el uso, el rendimiento y la entrega de servicios en la nube y negocia las relaciones entre los proveedores de la nube y los consumidores de la nube.
+ 
+ > Best Cloud Brokers include:
+> Pax8, IBM Cloud Broker, AppDirect Monetization Suite, AWS Service Catalog, CIGNEX Mercado Enterprise Marketplace, OpenText Cloud Brokerage and BPaaS, interworks. cloud platform, Jamcracker Cloud Services Brokerage (CSB), CSP Control Center, and AWS Service Broker. 
  
