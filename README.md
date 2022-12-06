@@ -1497,6 +1497,26 @@ Incia la conversacion de un servidor SMTP
  
  -L search for files that do not contain the term.
  
+ ## aLTEr Attacks Pasivos y activos
+ 
+ ### Passivos
+ 
+ EL atacante pone ua torre y escucha las comonuicaciones pero no modifica nada
+ 
+ ### Web Footprinting
+ 
+ Es cuanod el atacante usa los metadatos para ver que sitios esta visitando la victima sin modificar paquetes es un ataque dirgido a la capa 2
+ 
+ ## Activos 
+ 
+ pues es cuando ponen una torre y esta modifica hacia donde se conecta el usuario
+ 
+ ## Cracking de contraseñas
+ 
+ ### Ataques hibridos
+ 
+ Son un ataque en donde se sutituye numeros y caracteres en palabras para descubir una contraseña como por ejemplo hacking a h4cking
+ 
  
  
  
