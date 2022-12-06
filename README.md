@@ -1641,3 +1641,7 @@ Uno de los requisitos del sistema de Windows 11 es TPM 2.0. Microsoft ha declara
  ## HEAD
  
  Usualmente para hacer footprint se utilizan esta cabecera que regresa header information of the web server.
+ 
+ >The HTTP HEAD method requests HTTP headers from the server as if the document was requested using the HTTP GET method. The only difference between HTTP HEAD and GET requests is that for HTTP HEAD, the server only returns headers without body.
+
+ 
