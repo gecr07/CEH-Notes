@@ -1566,13 +1566,21 @@ En conclucion se acaba las ips y se convierte en el servidor dhcp el atacante pe
  Son los que dan los servicios de la nube ejemplo:
  
 Popular examples of cloud service providers include:
+ 
 -Amazon Web Services (AWS)
+ 
 -Microsoft Azure.
+ 
 -Google Cloud.
+ 
 -Alibaba Cloud.
+ 
 -IBM Cloud.
+ 
 -Oracle.
+ 
 -Salesforce.
+ 
 -SAP.
  
  
