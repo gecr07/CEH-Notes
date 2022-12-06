@@ -1555,9 +1555,25 @@ Incia la conversacion de un servidor SMTP
  
 En conclucion se acaba las ips y se convierte en el servidor dhcp el atacante permitiendo man in the middle.
  
+ # Actores de la nube segun el NIST ( entendiendo al 100%)
  
+ ## Cloud consumer
  
+ Es el cliente final que consume la nube por ejemplo tu!
  
+ ## Cloud provider
+ 
+ Son los que dan los servicios de la nube ejemplo:
+ 
+Popular examples of cloud service providers include:
+-Amazon Web Services (AWS)
+-Microsoft Azure.
+-Google Cloud.
+-Alibaba Cloud.
+-IBM Cloud.
+-Oracle.
+-Salesforce.
+-SAP.
  
  
  
