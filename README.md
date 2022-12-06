@@ -30,7 +30,7 @@ El no repudio es una forma de garantizar que el remitente de un mensaje no pueda
 
 Information warfare or InfoWar refers to the use of information and communication
 technologies (ICT).
-
+****
 
 # 2 Cyber Kill Chain Concepts
 
@@ -1343,6 +1343,11 @@ EJEMPLOS:
    nmap -v -iR 10000 -P0 -p 80
  
  ```
+ 
+ ## Scan smb-os-discovery
+ 
+ Ayuda a detectar el nombre del host nombre del dominio nombre en NetBios y el OS entre otros.
+ 
 
  ## IPC mechanisms available in the Android OS
  
@@ -1385,6 +1390,14 @@ EJEMPLOS:
  
  ![image](https://user-images.githubusercontent.com/63270579/205374998-6c69175c-d6e6-44ca-ac57-a6680b9c9a8b.png)
 
+ 
+ ### 3DES
+ 
+ Encrypta la informacion en fases de 56 bytes 
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/205780047-b219c179-6643-49d0-93cd-7d867edf8bfe.png)
+
+ 
  
  ## Tecnologias de comunicacion 
  
@@ -1532,10 +1545,15 @@ Incia la conversacion de un servidor SMTP
  389 LDAP
  443 https
  445 SMB
- 
  3389 RDP
  636 LDAPS
  
+ 
+ ## DHCP Starvation attack 
+ 
+ > Quick Definition: A DHCP starvation attack is a malicious digital attack that targets DHCP servers. During a DHCP attack, a hostile actor floods a DHCP server with bogus DISCOVER packets until the DHCP server exhausts its supply of IP addresses. Once that happens, the attacker can deny legitimate network users service, or even supply an alternate DHCP connection that leads to a Man-in-the-Middle (MITM) attack.
+ 
+En conclucion se acaba las ips y se convierte en el servidor dhcp el atacante permitiendo man in the middle.
  
  
  
