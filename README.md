@@ -1645,3 +1645,17 @@ Uno de los requisitos del sistema de Windows 11 es TPM 2.0. Microsoft ha declara
  >The HTTP HEAD method requests HTTP headers from the server as if the document was requested using the HTTP GET method. The only difference between HTTP HEAD and GET requests is that for HTTP HEAD, the server only returns headers without body.
 
  
+ ##  Spanning Tree Protocol(STP) 
+ 
+ 
+ Ayuda a que no existan loops redundantes en la red 
+ 
+ ### SPT Attack 
+ 
+ Consiste en poner un switch en un puerto no usado con prioridad baja para que el protocolo mande paquetes por ahi y puedan ser snifeados.
+ 
+ 
+ ## iOS Malware - Trident
+ 
+ Trident is a sophisticated(成熟的) spyware that exploits vulnerabilities in an iPhone to spy on users.These vulnerabilities allow attackers to jailbreak the target iPhone remotely and install malicious spyware such as Pegasus.Trident is capable of taking complete control of the target mobile device, and it allows attackers to monitor and track all the user activities. It also allows attackers to record audio, capture screenshots, and monitor all phone calls and SMS messages. (P.2498/2482)
+ 
