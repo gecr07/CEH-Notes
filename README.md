@@ -1140,6 +1140,8 @@ This tool is a successor to Evilginx, released in 2017, which used a custom vers
 
 ![image](https://user-images.githubusercontent.com/63270579/195419933-66f1f5e3-0d14-4e1f-a045-d14dbba59f1d.png)
 
+Nota este tipo de escaneo solo puede determinar si un puerto esta filtered o unfiltered. Si el puerto esta filtrado se espera un "no reply" no responde nada.
+recordas el tcp 3 way handshake SYN SYN/ACK ACK.
 
 ### UDP ping Scan 
 
@@ -1597,3 +1599,8 @@ En conclucion se acaba las ips y se convierte en el servidor dhcp el atacante pe
  > Best Cloud Brokers include:
 > Pax8, IBM Cloud Broker, AppDirect Monetization Suite, AWS Service Catalog, CIGNEX Mercado Enterprise Marketplace, OpenText Cloud Brokerage and BPaaS, interworks. cloud platform, Jamcracker Cloud Services Brokerage (CSB), CSP Control Center, and AWS Service Broker. 
  
+## Stateful Inspection Firewalls
+ 
+ > Un paso por delante de las puertas de enlace a nivel de circuito, los cortafuegos de inspección de estado y la verificación y el seguimiento de las conexiones establecidas también realizan la inspección de paquetes para proporcionar una seguridad mejor y más completa. Funcionan creando una tabla de estado con IP de origen, IP de destino, puerto de origen y puerto de destino una vez que se establece una conexión. Crean sus propias reglas dinámicamente para permitir el tráfico de red entrante esperado en lugar de depender de un conjunto de reglas codificadas basadas en esta información. Dejan caer convenientemente paquetes de datos que no pertenecen a una conexión activa verificada.
+
+> Los cortafuegos de inspección de estado verifican las conexiones legítimas y las direcciones IP de origen y destino para determinar qué paquetes de datos pueden pasar. Aunque estas comprobaciones adicionales proporcionan seguridad avanzada, consumen una gran cantidad de recursos del sistema y pueden ralentizar considerablemente el tráfico. Por lo tanto, son propensos a DDoS (ataques distribuidos de denegación de servicio).
