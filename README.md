@@ -1681,5 +1681,12 @@ provides insight into actor methodologies and exposes potential risks. It fuels 
  ## Enumeration
  Is one of the most important steps in ethical hacking because it gives hackers the necessary information to launch an attack. For example, hackers who want to crack passwords need to know the usernames of valid users on that system. Enumerating the target system can extract this information (CrashTestSecurity.com, 2022).
 
+## Key Streaching 
  
+ Es la manera de aser un weak password mas seguro y se trata de meter dicho password debil en una key derivation function  PBKDF2HMAC or HKDF.
+ 
+ 
+ ## Enumeracion
+ 
+ Enumeration is one of the most important steps in ethical hacking because it gives hackers the necessary information to launch an attack. For example, hackers who want to crack passwords need to know the usernames of valid users on that system. Enumerating the target system can extract this information (CrashTestSecurity.com, 2022).
  
