@@ -1659,3 +1659,9 @@ Uno de los requisitos del sistema de Windows 11 es TPM 2.0. Microsoft ha declara
  
  Trident is a sophisticated(成熟的) spyware that exploits vulnerabilities in an iPhone to spy on users.These vulnerabilities allow attackers to jailbreak the target iPhone remotely and install malicious spyware such as Pegasus.Trident is capable of taking complete control of the target mobile device, and it allows attackers to monitor and track all the user activities. It also allows attackers to record audio, capture screenshots, and monitor all phone calls and SMS messages. (P.2498/2482)
  
+ ## Web of Trust (WOT)
+ 
+Web of trust (WoT) is a trust model of PGP, OpenPGP, and GnuPG accessible systems.In WoT, everyone in the network is a CA, and they can sign for other trusted entities.WoT is a network chain in which individuals intermediately validate each other’s certificates using their signatures. Every user in the network has a ring of public keys to encrypt the data, and they introduce many other users whom they trust.
+ 
+ 
+ 
