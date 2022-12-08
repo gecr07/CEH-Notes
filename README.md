@@ -1664,4 +1664,22 @@ Uno de los requisitos del sistema de Windows 11 es TPM 2.0. Microsoft ha declara
 Web of trust (WoT) is a trust model of PGP, OpenPGP, and GnuPG accessible systems.In WoT, everyone in the network is a CA, and they can sign for other trusted entities.WoT is a network chain in which individuals intermediately validate each other’s certificates using their signatures. Every user in the network has a ring of public keys to encrypt the data, and they introduce many other users whom they trust.
  
  
+ ## Cyber Threat Intelligence
+ 
+ ## Tactical threat intelligence
+ 
+Is the most basic form of threat intelligence. These are your common indicators of compromise (IOCs). Tactical intelligence is often used for machine-to-machine detection of threats and for incident responders to search for specific artifacts in enterprise networks.
+
+## Operational threat intelligence
+ 
+provides insight into actor methodologies and exposes potential risks. It fuels more meaningful detection, incident response, and hunting programs. Where tactical threat intelligence gives analysts context on threats that are already known, operational intelligence brings investigations closer to uncovering completely new threats.
+
+## Strategic threat intelligence
+ 
+ Provides a big picture look at how threats and attacks are changing over time. Strategic threat intelligence may be able to identify historical trends, motivations, or attributions as to who is behind an attack. Knowing the who and why of your adversaries also provides clues to their future operations and tactics. This makes strategic intelligence a solid starting point for deciding which defensive measures will be most effective
+ 
+ ## Enumeration
+ Is one of the most important steps in ethical hacking because it gives hackers the necessary information to launch an attack. For example, hackers who want to crack passwords need to know the usernames of valid users on that system. Enumerating the target system can extract this information (CrashTestSecurity.com, 2022).
+
+ 
  
