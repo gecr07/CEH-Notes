@@ -1690,3 +1690,9 @@ provides insight into actor methodologies and exposes potential risks. It fuels 
  
  Enumeration is one of the most important steps in ethical hacking because it gives hackers the necessary information to launch an attack. For example, hackers who want to crack passwords need to know the usernames of valid users on that system. Enumerating the target system can extract this information (CrashTestSecurity.com, 2022).
  
+##  No ABAC Validation APIS
+
+No proper attribute-based access control (ABAC) validation allows attackers to gain unauthorized access to API objects or perform actions such as viewing, updating, or deleting.
+
+
+
