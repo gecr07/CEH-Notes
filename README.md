@@ -1695,4 +1695,18 @@ provides insight into actor methodologies and exposes potential risks. It fuels 
 No proper attribute-based access control (ABAC) validation allows attackers to gain unauthorized access to API objects or perform actions such as viewing, updating, or deleting.
 
 
-
+# Kubernetes o K8s
+ 
+ Kubernetes es una plataforma portable y extensible de código abierto para administrar cargas de trabajo y servicios. Kubernetes facilita la automatización y la configuración declarativa. Tiene un ecosistema grande y en rápido crecimiento. El soporte, las herramientas y los servicios para Kubernetes están ampliamente disponibles
+ 
+ ## Kube-scheduler:
+ 
+ Kube-scheduler is a master component that scans newly generated pods and allocates a node for them. It assigns the nodes based on factors such as the overall resource requirement, data locality, software/hardware/policy restrictions, and internal workload interventions
+ 
+ ## MAC address flooding attack (CAM table flooding attack)
+ 
+ is a type of network attack where an attacker connected to a switch port floods the switch interface with very large number of Ethernet frames with different fake source MAC address.
+ 
+ ## Spoofed Session Flood Attack
+ 
+Attackers create fake or spoofed TCP sessions by carrying multiple SYN, ACK, and RST or FIN packets. Bypass firewalls and perform DDoS attacks against the target network, exhausting its network resources. (P.1319/1303)
