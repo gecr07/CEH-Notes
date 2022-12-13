@@ -1710,3 +1710,11 @@ No proper attribute-based access control (ABAC) validation allows attackers to g
  ## Spoofed Session Flood Attack
  
 Attackers create fake or spoofed TCP sessions by carrying multiple SYN, ACK, and RST or FIN packets. Bypass firewalls and perform DDoS attacks against the target network, exhausting its network resources. (P.1319/1303)
+ 
+ 
+ ## Server side Includes
+ 
+ A Web page with an ".stm" extension is an .HTM file that contains server side includes (SSI). These "includes" are directives that are processed by the Web server when the page is accessed by a user. They are used to generate dynamic content. SSI Web pages can be viewed as a standard HTML page in any browser.
+ 
+ 
+ 
