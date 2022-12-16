@@ -1034,8 +1034,9 @@ El ataque DROWN es una falla de seguridad de protocolos cruzados que afecta a se
  ## Spearphone
  
  
-     Los investigadores crearon una aplicación de Android que fue diseñada para registrar las reverberaciones del habla usando el acelerómetro y enviar los datos capturados a un servidor controlador de atacante como prueba de concepto. Los investigadores han demostrado que este ataque puede usarse con éxito para espiar llamadas telefónicas, escuchar notas de voz o multimedia, y espiar el uso de un asistente como Google Assistant o Bixby, como se muestra a continuación.
+> Los investigadores crearon una aplicación de Android que fue diseñada para registrar las reverberaciones del habla usando el acelerómetro y enviar los datos capturados a un servidor controlador de atacante como prueba de concepto. Los investigadores han demostrado que este ataque puede usarse con éxito para espiar llamadas telefónicas, escuchar notas de voz o multimedia, y espiar el uso de un asistente como Google Assistant o Bixby, como se muestra a continuación.
  
+> Nuevo ataque permite que las aplicaciones de Android capturen datos de altavoces sin ningún permiso. 
  
  ## PCI-DSS
  
@@ -1054,6 +1055,20 @@ Definition(s): In a watering hole attack, the attacker compromises a site likely
  ## Permisos en Linux Manera de nuemeros
  
  ![image](https://user-images.githubusercontent.com/63270579/204541166-c5668017-ca1e-41c2-91e1-bd48aba910e5.png)
+
+
+## SQLMAP
+
+```
+sqlmap.py -u "http://10.10.1.20/?p=1&forumaction=search" -dbs
+
+```
+
+## Opcion -dbs
+
+Enumera el systema manejador de bases de datos.
+
+
 
  ## El fichero fstab
 
