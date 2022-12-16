@@ -1747,4 +1747,8 @@ Attackers create fake or spoofed TCP sessions by carrying multiple SYN, ACK, and
  A Web page with an ".stm" extension is an .HTM file that contains server side includes (SSI). These "includes" are directives that are processed by the Web server when the page is accessed by a user. They are used to generate dynamic content. SSI Web pages can be viewed as a standard HTML page in any browser.
  
  
+## HIPAA vs HITECH
+ 
+ HIPAA proporciona pautas fundamentales en torno a la divulgación de información, mientras que HITECH se basa en estos estándares con respecto a las violaciones de datos. En el caso de una violación no segura, HITECH describe los requisitos de notificación para que las entidades cubiertas cumplan.
+ 
  
