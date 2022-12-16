@@ -1755,3 +1755,12 @@ Attackers create fake or spoofed TCP sessions by carrying multiple SYN, ACK, and
 ## FISMA
  
  Under Federal Information Security Modernization Act (FISMA), the Department of Homeland Security provides additional operational support to federal.
+ 
+ 
+ ## Google dork related:
+ 
+ Esta permite encontrar paginas que son similares a la que pones en related.
+ 
+ ## Infoga 
+ 
+ is a free and open-source tool, which is used for finding if emails were leaked using haveibeenpwned.com API. Infoga is used for scanning email addresses using different websites and search engines for information gathering and finding information about leaked information on websites and web apps.
