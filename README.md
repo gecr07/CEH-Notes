@@ -1752,3 +1752,6 @@ Attackers create fake or spoofed TCP sessions by carrying multiple SYN, ACK, and
  HIPAA proporciona pautas fundamentales en torno a la divulgación de información, mientras que HITECH se basa en estos estándares con respecto a las violaciones de datos. En el caso de una violación no segura, HITECH describe los requisitos de notificación para que las entidades cubiertas cumplan.
  
  
+## FISMA
+ 
+ Under Federal Information Security Modernization Act (FISMA), the Department of Homeland Security provides additional operational support to federal.
