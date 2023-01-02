@@ -599,6 +599,8 @@ Tipo de virus que sobrescribe una parte del fichero, generalmente áreas vacías
 
 Qué es un DGA? Para evadir la detección, generan nombres de dominio y direcciones IP para servidores de comando y control de malware.
 
+Los DGAs no son más que algoritmos que generan de una manera pseudoaleatoria una lista de dominios DNS válidos, y que normalmente van cambiando en el tiempo.
+
 ## ZoomInfo
 
 ZoomInfo Technologies Inc. es una empresa de software y datos que proporciona información y datos para empresas y personas de negocios.
