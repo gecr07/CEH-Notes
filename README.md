@@ -1127,9 +1127,9 @@ It contains useful information about the processes that are currently running, i
 
 This tool is a successor to Evilginx, released in 2017, which used a custom version of nginx HTTP server to provide man-in-the-middle functionality to act as a proxy between a browser and phished website. Present version is fully written in GO as a standalone application, which implements its own HTTP and DNS server, making it extremely easy to set up and use.
  
- ## PHP expliccion de Logs
+ # PHP expliccion de Logs
  
- ### php ini file 
+ ## php ini ( file ) 
  
  Este es un archivo runtime  de confguracion que define como PHP 
  
