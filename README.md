@@ -1141,7 +1141,7 @@ This tool is a successor to Evilginx, released in 2017, which used a custom vers
  Se usa para servidores ***productivos que no muestra errores a los usuarios lo que seria una falla de seguridad*** 
  
  
-## error_log ( directive )
+## error_log ( directive ) direccion y nombre del log activado en logs_errors (ON / OFF)
  
  Es una directiva dentro del php.ini determina el path y el nombre del log que es activado por el log_errors. por default esta OFF si se activa la directiva
  logs_errors tu debes tambien especificar el path y nombre. Osea van juntas. log_errors ON y el error_log 
