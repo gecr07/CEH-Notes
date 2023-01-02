@@ -897,19 +897,19 @@ Puede emular la prespectiva de un atacante ya que pueden hacer escaneos desde de
  
 ## Bluetooth
  
- ## Bluesnarfing
+ ## Bluesnarfing ( snarfing traduccion roncando )
  
  Cuando el atacante accede a informacion de un dispositivo que no deberia contact list, text mesages, email messages and calendar.
  
- ## Bluesmacking
+ ## Bluesmacking ( smacking traduccion paliza )
  
  Es como el ping de la muerte pero en bluetooth lo entiendo como un ataque de denegacion de servicio.
  
- ## Bluebugging
+ ## Bluebugging ( bugging traduccion molestando )
  
  Es un ataque donde se tienen un backdoor en el dispositivo de la victima.
  
- ## Bluejacking 
+ ## Bluejacking ( jacking  elevacion )
  
  Es el ataque en donde se mandan mensajes indeseados a la victima 
  
