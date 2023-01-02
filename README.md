@@ -915,6 +915,23 @@ Puede emular la prespectiva de un atacante ya que pueden hacer escaneos desde de
  
  # Ataques
  
+ ## Replay attack 
+ 
+ Es un ataque en donde medienta man in the middle se consigue un token o informacion como Samba relay y cosas asi de AD.
+ 
+ ## Reconnasing Attack
+ 
+ Puede ser incluso fisico en el caso de que alguien vea un password e intente replicarlo pero tambien pues lanzar un sweep ping etc.
+ 
+ ## CrytpAnalisis Attack 
+ 
+ En donde el atacante consigue el texto cifrado y el texto claro e intenta ver como se cifra para en un futuro interceptar mensajes cifrados e intentar espiar.
+
+
+## Side-Channel Attack 
+
+Es donde el atacante conoce como aspectos tecnicos por ejemplo tipo de procesador tiempo para romper una encryptacion.
+ 
  ## Whailing 
  
  ![image](https://user-images.githubusercontent.com/63270579/202868246-70387e32-c7fb-4cfb-b46c-01200dbfae9c.png)
