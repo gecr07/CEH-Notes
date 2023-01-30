@@ -1395,6 +1395,11 @@ EJEMPLOS:
  
  Ayuda a detectar el nombre del host nombre del dominio nombre en NetBios y el OS entre otros.
  
+ ## -PO  scan
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/215569224-120de790-ace9-490c-9c25-0ac730006c3e.png)
+
+ 
 
  ## IPC mechanisms available in the Android OS
  
@@ -1789,3 +1794,17 @@ Attackers create fake or spoofed TCP sessions by carrying multiple SYN, ACK, and
  Herramienta utilizada para realizar ataques DDos.
  
  > https://github.com/R3DHULK/HULK
+ 
+ ## Google Dorks Parent Directory
+ 
+ Para buscar exposed parent directory por lo regular se usa.
+ 
+ ```
+ intitle: parent directory
+ ```
+ 
+ ## Cloud Hopper attack
+ 
+ Es un ataque por medio de spear phising que permito a el APT10 de china espiar a empresas occidentales y se ubiera podido editar si se ubiera usado en enfoque de Zero trust.
+ 
+ 
