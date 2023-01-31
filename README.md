@@ -1807,4 +1807,18 @@ Attackers create fake or spoofed TCP sessions by carrying multiple SYN, ACK, and
  
  Es un ataque por medio de spear phising que permito a el APT10 de china espiar a empresas occidentales y se ubiera podido editar si se ubiera usado en enfoque de Zero trust.
  
+ ## Switch spoofing attack
  
+ ![image](https://user-images.githubusercontent.com/63270579/215795563-8f82da48-8af3-4e1c-bd4e-62f840a37d00.png)
+
+ ## REST API
+ 
+ Puede manejar tanto JSON como XML.
+ 
+ ## Falsos negativos
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/215829489-61686a13-404b-414f-a4fa-185d4f5a8a54.png)
+
+ ## Nmap -PR scan
+ 
+ Arp scan
