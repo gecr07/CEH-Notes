@@ -1838,3 +1838,23 @@ Attackers create fake or spoofed TCP sessions by carrying multiple SYN, ACK, and
  ```
  nmap -sV -sC -O --traceroute
  ```
+ 
+ ## Autentication encription WPA3
+ 
+ Para la autentication encryption se usa AES-GCMP.
+ 
+ ## Website-Watcher
+ 
+ Es una herramienta que cuando un sitio web realiza algun cambio este te avisa ( pdoria usarse para bug bounty ¿? )
+ 
+ ## Donation attack
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/215864200-75dff2d1-91f1-4cfb-8372-0b09827db666.png)
+
+ ## Nmap Xmas scan -sX
+ 
+ Este tipo de escaneo manda paquetes con las banderas FIN, PSH, URG.
+ 
+ 
+
+ 
