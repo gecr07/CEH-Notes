@@ -1822,3 +1822,19 @@ Attackers create fake or spoofed TCP sessions by carrying multiple SYN, ACK, and
  ## Nmap -PR scan
  
  Arp scan
+
+## Baseline
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/215839111-829c336b-6613-46ea-b299-ea5ec26a05ca.png)
+
+ ## Firmas digitales
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/215845278-9d554c4b-876b-4ed9-84d9-0b7c04c95d02.png)
+
+ ## Nmap -A
+ 
+ Esto equivale a
+ 
+ ```
+ nmap -sV -sC -O --traceroute
+ ```
