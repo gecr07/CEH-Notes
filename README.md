@@ -1885,3 +1885,9 @@ Cuando alguien finje una relacion amorosa para poder conseguir informacion confi
  ## Banner Grabbing
  
 ![image](https://user-images.githubusercontent.com/63270579/216145255-ee9bf8f4-9cab-407a-a4e1-a18737274a89.png)
+ 
+ ## Cloudborne
+ 
+ Es una vulnerabilidad que se aprobecha de los servidores en la nube que no tiene SO 
+ 
+ > 
