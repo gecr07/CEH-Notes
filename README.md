@@ -1855,6 +1855,20 @@ Attackers create fake or spoofed TCP sessions by carrying multiple SYN, ACK, and
  
  Este tipo de escaneo manda paquetes con las banderas FIN, PSH, URG.
  
+ ## Nmap ACK scan -sA
+ 
+ Este tipo de escaneo si el puerto esta filtrado regresara no reply
+
+ ## Android APK
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/215867262-5381455b-a95d-4ab7-abdc-2474517e38da.png)
+ 
+ ## SMTP
+ 
+ EXPN para solicitar los destinatarios de un correo electronico.
+ 
+ 
+ 
  
 
  
