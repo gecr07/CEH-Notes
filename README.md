@@ -1882,4 +1882,6 @@ Cuando alguien finje una relacion amorosa para poder conseguir informacion confi
 
  Archivos PDF que contengan dentro "txt" pero no "doc"
 
+ ## Banner Grabbing
  
+![image](https://user-images.githubusercontent.com/63270579/216145255-ee9bf8f4-9cab-407a-a4e1-a18737274a89.png)
