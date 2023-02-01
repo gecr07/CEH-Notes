@@ -1901,3 +1901,20 @@ Cuando alguien finje una relacion amorosa para poder conseguir informacion confi
 A OSINT tool.
  
  
+## GLBA
+ 
+ Is a law that protects the confidentialy the integrity of information in financial institutions
+ 
+## FTP Diferentes tipos de SFTP
+ 
+ ### Implicit FTPS 
+ 
+ Activa la version segura del FTP poniendola en los puertos 989 990
+ 
+ ## Explicit FTPS
+ 
+ Requiere que el cliente pida al servidor usar una conexion segura.
+ 
+ ## Secure FTP es igual a SSH
+ 
+ 
