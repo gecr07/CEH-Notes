@@ -1891,3 +1891,13 @@ Cuando alguien finje una relacion amorosa para poder conseguir informacion confi
  Es una vulnerabilidad que se aprobecha de los servidores en la nube que no tiene SO 
  
  > 
+
+ ## Vulnerability scanning 
+ 
+ Se considera un escaneo pasivo.
+ 
+ ## MEDUSA
+
+A OSINT tool.
+ 
+ 
