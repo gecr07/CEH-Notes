@@ -1922,3 +1922,6 @@ A OSINT tool.
  
  > HINFO records allow you to define the hardware type and Operating System (OS) in use at a host. This information can be used by application protocols such as FTP, which uses special procedures when communicating with computers of a known CPU and OS type. For security reasons, these records are rarely used on public servers.
  
+## DNS Attacks ( ya de una vez por todas)
+ 
+ ### 
