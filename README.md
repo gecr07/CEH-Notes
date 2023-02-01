@@ -1868,7 +1868,18 @@ Attackers create fake or spoofed TCP sessions by carrying multiple SYN, ACK, and
  EXPN para solicitar los destinatarios de un correo electronico.
  
  
+ ## Honey trap
  
+Cuando alguien finje una relacion amorosa para poder conseguir informacion confidencial
  
+ ## sparse infection viruses attack
+ 
+ Infecta solo cuando una condicion se cumple.
+ 
+ ## Google Docks
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/216138804-4659e991-afd6-4e45-b1a9-c2122030ea20.png)
+
+ Archivos PDF que contengan dentro "txt" pero no "doc"
 
  
