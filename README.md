@@ -1937,7 +1937,11 @@ A OSINT tool.
  
  Este ataque se usa malware para re direccionar este modifica las tramas TCP por lo que entiendo asi los dns apuntaran a uno malicioso en vez del verdadero. Siento qu ees como el troyano este DNSChanger que cambiaba el 8.8.8.8 a uno controlado pro ellos.
 
- ### 
+ ### NMAP -sA
+ 
+ Filtered no replay unfiltered A RST.
+ 
+ 
  
  
  
