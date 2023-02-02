@@ -1950,6 +1950,19 @@ A OSINT tool.
  Es modificar los paquetes a nivel de IP para que vengan desde otro source lo cual no permitiria que el atacante recupere la pagina web porque le llegaria a la ip que va en el paquete.
  
  
+ ## Usar el mount
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/216394725-b6b4b509-2281-481a-9daa-8c2dd5abb9ec.png)
+ 
+ Ademas date cuenta del uso de chroot que ahora esa sera el root y puedes escribir el archivo de la contraseña para cambiar el passwd.
+ 
+ ## RedHat vs Whitehacks
+ 
+ Son hackers que atacan directamente a un blackhack para detenerlos usando troyanos, keyloggers, DoS attacks.
+ 
+ ## Nmap Protcolol scan ( -sO )
+ 
+ 
  
  
  
