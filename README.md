@@ -318,7 +318,7 @@ footprinting) in the ARIN Whois database search tool. A user can also visit the 
 
 #### Comandos interesantes
 
-![image](https://user-images.githubusercontent.com/63270579/195388151-d89656ee-0b50-4e2c-8d82-e7eff8a8408b.png)
+![image](https://user-images.githubusercontent.com/63270579/195388151-d89656ee-0b50-4e2c-8d82-e7eff8a8408b.png) 
 
 ```
 tracert ip destino
