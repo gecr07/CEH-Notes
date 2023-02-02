@@ -1924,4 +1924,20 @@ A OSINT tool.
  
 ## DNS Attacks ( ya de una vez por todas)
  
+ ### DNS spoofing tambien se llama DNS cache poisoning ( spoofing traduccion suplantación de identidad)
+ 
+ Es cuando un atacante ingresa resgistros DNS ( datos de resolucion de nombres) malisiosos en un servidor dns y cuando los usuarios visitan ese sitio pues son redirigidos a otros. mas tambien en algunos casos como MITM.
+ 
+ ### DNS flooding (inundación)
+ 
+ Es un ataque DoS que inunda los servidores dns con trafico lo cual no permite que respondan a peticiones legitimas.
+ 
+ 
+ ### DNS hijacking (secuestro)
+ 
+ Este ataque se usa malware para re direccionar este modifica las tramas TCP por lo que entiendo asi los dns apuntaran a uno malicioso en vez del verdadero. Siento qu ees como el troyano este DNSChanger que cambiaba el 8.8.8.8 a uno controlado pro ellos.
+
  ### 
+ 
+ 
+ 
