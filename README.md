@@ -1973,7 +1973,13 @@ A OSINT tool.
 Table 5.7. How Nmap interprets responses to a Maimo
  
  
+ ## Trasfer Data Android
  
+ > Sideloading is a term that refers to transferring a file between two local devices without the use of the internet. Since the internet isn't involved, transferring a file via side loading typically requires the use of Wi-Fi, Bluetooth, or a physical memory card.
+ 
+ ## Session fixation
+ 
+ > En la seguridad de las redes informáticas, los ataques de fijación de sesión intentan explotar la vulnerabilidad de un sistema que permite que una persona fije el identificador de sesión de otra persona
  
  
  
