@@ -1982,6 +1982,10 @@ Table 5.7. How Nmap interprets responses to a Maimo
  > En la seguridad de las redes informáticas, los ataques de fijación de sesión intentan explotar la vulnerabilidad de un sistema que permite que una persona fije el identificador de sesión de otra persona
  
  
+ ## RSA attack
+ 
+ > A chosen-ciphertext attack (CCA) is an attack model for cryptanalysis where the cryptanalyst can gather information by obtaining the decryptions of chosen ciphertexts. From these pieces of information the adversary can attempt to recover the hidden secret key used for decryption.
+ 
  
  
  
