@@ -1962,9 +1962,15 @@ A OSINT tool.
  
  ## Nmap Protcolol scan ( -sO )
  
+ ## DEX files
  
+ > This file contains the Java libraries that the application uses.
  
+ ## Mainmon scan -sM
  
+ > The Maimon scan is named after its discoverer, Uriel Maimon. He described the technique in Phrack Magazine issue #49 (November 1996). Nmap, which included this technique, was released two issues later. This technique is exactly the same as NULL, FIN, and Xmas scan, except that the probe is FIN/ACK. According to RFC 793 (TCP), a RST packet should be generated in response to such a probe whether the port is open or closed. However, Uriel noticed that many BSD-derived systems simply drop the packet if the port is open. Nmap takes advantage of this to determine open ports, as shown in Table 5.7.
+
+Table 5.7. How Nmap interprets responses to a Maimo
  
  
  
