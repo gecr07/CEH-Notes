@@ -1941,6 +1941,35 @@ A OSINT tool.
  
  Filtered no replay unfiltered A RST.
  
+ ## WPA3
+ 
+ WPA2 PSK es remplazado por SAE ( simultaneus authentication equals).
+ 
+ ## Ip spoofing
+ 
+ Es modificar los paquetes a nivel de IP para que vengan desde otro source lo cual no permitiria que el atacante recupere la pagina web porque le llegaria a la ip que va en el paquete.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
