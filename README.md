@@ -2009,6 +2009,13 @@ Tuneliza trafico via ICMP
  
  El bloque mas largo que AES puede utilizar el 127 bits
  
+ ## ARP poison attack
+ 
+ Es un ataque man in the middle en donde el atacante inserta entradas invalidad en el ARP cache. False ip to MAC associations
+ 
+ ## TCP session hijacking
+ 
+ Tiene que ver con el ISN el cual es utilizado en el 3 way hand shake. Lo que pasa es que y se suplanta la IP.
  
  
  
