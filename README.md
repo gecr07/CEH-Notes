@@ -1987,6 +1987,29 @@ Table 5.7. How Nmap interprets responses to a Maimo
  > A chosen-ciphertext attack (CCA) is an attack model for cryptanalysis where the cryptanalyst can gather information by obtaining the decryptions of chosen ciphertexts. From these pieces of information the adversary can attempt to recover the hidden secret key used for decryption.
  
  
+ ## Tunneling de protocolos
+ 
+ ### NSTX
+ 
+ Tunneling trafic via DNS 53 port 
+ 
+ ### Bitvise
+ 
+ Tunnelizar paquetes por ssh 
+ 
+ ### Super Tunnel
+ 
+ Tunelizar trafico por http 80 
+ 
+ ### Loki 
+ 
+Tuneliza trafico via ICMP
+ 
+ ## AES max block size
+ 
+ El bloque mas largo que AES puede utilizar el 127 bits
+ 
+ 
  
  
  
